@@ -1,0 +1,1124 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="Prime Minister chairs DGP/IGP Conference in Raipur" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2196420" /><meta property="og:description" content="Prime Minister Shri Narendra Modi chaired the first day of the Conference of Directors General and I" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="pkyryvixg72tu2xtjfjq-f-be4b03aff-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":12,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"abf7902","ak.r":40321,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":60485,"ak.gh":"23.55.245.54","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1794328915","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==IQa7+ZLS/jzNfCIfpX7SJcC9W0zzOJSlXnzGRqC+fTI/qlHeq3F+oX+XmFcWSxVdwtZG7Ok+7F9p1acQ8fjpRU16/w8B94VSpCuZMplhHQxa+QGkyzhIDSsK1nhHnpDFEc6bfvFloG/I327ofF/a52OriWYKmi5BXwbVZvc3HtOuvmkuL228iFnyD61HQgcoIcJ4mWFcLCE/pcBIXJ9HTKCe58Whn7VVZkds/MjhsFv1ikcrrUu/8Jd0jc6q/i0XYLhfvakNlqoW3KWtub3O38m94ONsJSGHvMnZIcV6p10EbTCT2j3w/5Zo9NowR8k2yKOq4GCB88dQ9N8rgMIgCCMHxWIaHcJuUZjFY+nR07Av+JvV4DQh1Bi+ICMDD65RsJfcHlh8cjS5EnAjtUpSCuXV2Qq4GVwtf8Sa9HD1dLc=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2196420&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639191042600000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="A66W3fwCODT1g0/nMxroeyUNSCJIXo+wSFayN61nxmRvbshllNNV4LQBCyC5inlGcC2b2Y7CaMrck0OUhPhybw9LFtGnsNqAnjyiaQRGPWRBNDNTbwENnLljU/UkHwwDF3LXch8nNBGOhBQHVPoclEEEf0HzqmF0JUXc9Sp4PRCQwzJlVN3F/H6rNNc48G7qoshBVoDUwvmAjQvMnz3E7IQbAO0+W9esAKotKKhVcExAf3vXCRk8+g0uPGRq0iaiPwMPzYBZqwUMIUrPCvDA2eJYmXQ=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2196420" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    Prime Minister's Office
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        Prime Minister chairs DGP/IGP Conference in Raipur
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"></span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              29 NOV 2025 8:24PM by PIB Delhi
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Prime Minister Shri Narendra Modi chaired the first day of the Conference of Directors General and Inspectors General of Police in Raipur today. He remarked that the conference witnessed extensive deliberations on different aspects of India&rsquo;s security system. Prime Minister underscored that this forum serves as a vital platform to share best practices and innovations in the field of national security.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In a post on X, Shri Modi said:</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&ldquo;The first day of the DGP/IGP Conference in Raipur witnessed extensive deliberations on different aspects of India&rsquo;s security system. This is a great forum to share best practices and innovations in this field.&rdquo;</span></span></p>
+
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The first day of the DGP/IGP Conference in Raipur witnessed extensive deliberations on different aspects of India’s security system. This is a great forum to share best practices and innovations in this field. <a href="https://t.co/Qo3k0myIDU">pic.twitter.com/Qo3k0myIDU</a></p>&mdash; Narendra Modi (@narendramodi) <a href="https://twitter.com/narendramodi/status/1994772341906399702?ref_src=twsrc%5Etfw">November 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*******</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SR</span></span></strong></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2196420)</span>
+                <span id="lblViews">Visitor Counter : 1535</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this release in: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196521' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196473' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196457' target="_blank">
+                            Marathi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196661' target="_blank">
+                            Manipuri </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196561' target="_blank">
+                            Bengali </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196748' target="_blank">
+                            Bengali-TR </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196507' target="_blank">
+                            Assamese </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196798' target="_blank">
+                            Punjabi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196449' target="_blank">
+                            Gujarati </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196658' target="_blank">
+                            Odia </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2242108' target="_blank">
+                            Tamil </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2254494' target="_blank">
+                            Telugu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196472' target="_blank">
+                            Kannada </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2196451' target="_blank">
+                            Malayalam </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2196420"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2196420"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2196420"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2196420"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2196420"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        Prime Minister's Office
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            Prime Minister chairs DGP/IGP Conference in Raipur
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          29 NOV 2025 8:24PM by PIB Delhi
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">Prime Minister Shri Narendra Modi chaired the first day of the Conference of Directors General and Inspectors General of Police in Raipur today. He remarked that the conference witnessed extensive deliberations on different aspects of India&rsquo;s security system. Prime Minister underscored that this forum serves as a vital platform to share best practices and innovations in the field of national security.</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">In a post on X, Shri Modi said:</span></span></p>
+
+<p style="text-align:justify"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">&ldquo;The first day of the DGP/IGP Conference in Raipur witnessed extensive deliberations on different aspects of India&rsquo;s security system. This is a great forum to share best practices and innovations in this field.&rdquo;</span></span></p>
+
+<center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The first day of the DGP/IGP Conference in Raipur witnessed extensive deliberations on different aspects of India’s security system. This is a great forum to share best practices and innovations in this field. <a href="https://t.co/Qo3k0myIDU">pic.twitter.com/Qo3k0myIDU</a></p>&mdash; Narendra Modi (@narendramodi) <a href="https://twitter.com/narendramodi/status/1994772341906399702?ref_src=twsrc%5Etfw">November 29, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<p style="text-align:center"><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">*******</span></span></p>
+
+<p style="text-align:justify"><strong><span style="font-family:Times New Roman,Times,serif"><span style="font-size:16px">MJPS/SR</span></span></strong></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2196420)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420&text=Prime Minister chairs DGP/IGP Conference in Raipur' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Prime Minister chairs DGP/IGP Conference in Raipur&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420&title=Prime Minister chairs DGP/IGP Conference in Raipur&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420&text=Prime Minister chairs DGP/IGP Conference in Raipur' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=Prime Minister chairs DGP/IGP Conference in Raipur&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2196420&title=Prime Minister chairs DGP/IGP Conference in Raipur&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="Prime Minister chairs DGP/IGP Conference in Raipur" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>Prime Minister Shri Narendra Modi chaired the first day of the Conference of Directors General and Inspectors General of Police in Raipur today. He remarked that the conference witnessed extensive deliberations on different aspects of India&amp;rsquo;s security system. Prime Minister underscored that this forum serves as a vital platform to share best practices and innovations in the field of national security.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>In a post on X, Shri Modi said:&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>&amp;ldquo;The first day of the DGP/IGP Conference in Raipur witnessed extensive deliberations on different aspects of India&amp;rsquo;s security system. This is a great forum to share best practices and innovations in this field.&amp;rdquo;&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;>The first day of the DGP/IGP Conference in Raipur witnessed extensive deliberations on different aspects of India’s security system. This is a great forum to share best practices and innovations in this field. &lt;a href=&quot;https://t.co/Qo3k0myIDU&quot;>pic.twitter.com/Qo3k0myIDU&lt;/a>&lt;/p>&amp;mdash; Narendra Modi (@narendramodi) &lt;a href=&quot;https://twitter.com/narendramodi/status/1994772341906399702?ref_src=twsrc%5Etfw&quot;>November 29, 2025&lt;/a> 
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>*******&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;strong>&lt;span style=&quot;font-family:Times New Roman,Times,serif&quot;>&lt;span style=&quot;font-size:16px&quot;>MJPS/SR&lt;/span>&lt;/span>&lt;/strong>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="ouf953ZEDVjGJJxfRENNNTnOX-51j6z5UsqzVyDG63sJSqWdEszxf_iFKTgblfmwNCHrzIhQtku-yl6MyndFT-5tQ2vehsmwWYa-EFmGdvfSR9tnBYGYRw=="/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

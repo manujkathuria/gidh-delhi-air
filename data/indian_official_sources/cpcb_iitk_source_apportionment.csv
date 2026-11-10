@@ -1,0 +1,16 @@
+study,source_sector,season,pollutant,share_percentage,primary_chemical_marker,notes
+IIT_Kanpur_CPCB,Secondary Inorganic Particles (Sulfates/Nitrates/Ammonium),Winter,PM2.5,30.0,"SO4(2-), NO3(-), NH4(+)",Gas-to-particle conversion in high humidity and cold stagnation
+IIT_Kanpur_CPCB,Biomass Burning (Crop Residue & Domestic Firewood),Winter,PM2.5,26.0,"Levoglucosan, Potassium (K), Organic Carbon",Stubble burning inflow + localized space heating
+IIT_Kanpur_CPCB,Vehicles (Internal Combustion Exhaust),Winter,PM2.5,25.0,"Elemental Carbon (Black Carbon), Hopanes, NO2",Tailpipe emissions trapped by shallow boundary layer
+IIT_Kanpur_CPCB,Municipal Solid Waste (MSW) Burning,Winter,PM2.5,8.0,"Antimony (Sb), Chlorine, PAHs",Open roadside garbage burning
+IIT_Kanpur_CPCB,Coal and Fly Ash,Winter,PM2.5,4.8,"Selenium (Se), Arsenic (As), SO2",Thermal power plants and industrial kilns
+IIT_Kanpur_CPCB,Soil and Road Dust,Winter,PM2.5,4.3,"Silicon (Si), Aluminum (Al), Calcium (Ca)",Low re-suspension due to morning dew and damp ground
+IIT_Kanpur_CPCB,Others (Construction / Diesel Generators),Winter,PM2.5,1.9,Trace Elements,Localized sources
+IIT_Kanpur_CPCB,Soil and Road Dust,Summer,PM2.5,27.1,"Silicon (Si), Aluminum (Al), Calcium (Ca)",Dry soil and high convective wind re-suspension
+IIT_Kanpur_CPCB,Coal and Fly Ash,Summer,PM2.5,26.0,"Selenium (Se), Fly Ash Cenospheres",Industrial and brick kiln dispersion
+IIT_Kanpur_CPCB,Secondary Inorganic Particles,Summer,PM2.5,14.9,"SO4(2-), NO3(-)",Photochemical gas-to-particle conversion
+IIT_Kanpur_CPCB,Biomass Burning,Summer,PM2.5,12.2,"Levoglucosan, Organic Carbon",Wheat stubble burning + domestic solid fuel
+IIT_Kanpur_CPCB,Vehicles (Internal Combustion Exhaust),Summer,PM2.5,8.5,"Elemental Carbon, NO2",Masked by massive influx of crustal dust
+IIT_Kanpur_CPCB,Municipal Solid Waste (MSW) Burning,Summer,PM2.5,7.2,"PAHs, Trace Metals",Open waste burning
+IIT_Kanpur_CPCB,Construction Material,Summer,PM2.5,3.0,"Calcium, Silica",Concrete mixing and structural demolition
+IIT_Kanpur_CPCB,Others,Summer,PM2.5,1.1,Trace Elements,Miscellaneous

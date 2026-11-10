@@ -1,0 +1,1139 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="mr">
+<head id="Head1"><title>
+	Press Release Page | Press Information Bureau
+</title><link href="css/style.css?v=1" rel="stylesheet" type="text/css" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="alternate stylesheet" href="css/change.css?v=1" media="screen" title="change" /><link rel="alternate stylesheet" href="css/green.css?v=1" media="screen" title="green" /><link rel="alternate stylesheet" href="css/yellow.css" media="screen" title="yellow" /><link rel="stylesheet" type="text/css" href="css/prtint.css" media="print" /><link rel="stylesheet" href="css/style3.1.css" type="text/css" /><link id="pibA11yCss" rel="stylesheet" href="/css/accessibility.css?v=7" type="text/css" />
+    <script type="text/javascript">
+        (function (d) {
+            var t = "";
+            try {
+                t = window.localStorage.getItem("pibStyle") || "";
+            } catch (e) {
+                t = "";
+            }
+            if (t === "orange") {
+                t = "yellow";
+            }
+            var c = t === "change" ? " pib-hc"
+                : t === "green" ? " pib-theme-green"
+                : t === "yellow" ? " pib-theme-yellow" : "";
+            d.documentElement.className += c + " pib-a11y-content";
+        }(document));
+    </script>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/js/accessibility.js?v=7"></script>
+
+    <script type="text/javascript">
+            $(document).ready(function () {
+                  function getParameterByName(name) {
+                        var url = window.location.href;
+                        name = name.replace(/[\[\]]/g, '\\$&');
+                        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                              results = regex.exec(url);
+                        if (!results) return null;
+                        if (!results[2]) return '';
+                        return decodeURIComponent(results[2].replace(/\+/g, ' '));
+                  }
+                  let prid = parseInt(getParameterByName('PRID'), 10);
+
+                  if (!isNaN(prid) && prid > 0) {
+                        $.ajax({
+                              type: "POST",
+                              url: "AjaxMethod.aspx/UpdatePRHitCount",
+                              async: false,
+                              data: JSON.stringify({ 'PermId': prid }),
+                              contentType: "application/json; charset=utf-8",
+                              dataType: "json",
+                              success: function (response) {
+                                    console.log(response);
+                              },
+                              error: function (error) {
+                                    console.log("Error in AJAX request", error);
+                              }
+                        });
+                  } else {
+                        console.log("Invalid parameters:", prid);
+                  }
+            });
+    </script>
+    <style type="text/css">
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+        }
+
+        full-width {
+            width: 100%;
+        }
+
+        .logo-left, .logo-center, .countdown {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo-left img, .logo-center img {
+                height: 70px;
+            }
+
+        .countdown {
+            text-align: center;
+            background-color: var(--dbim-text, #150202);
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid grey;
+        }
+
+        .firstnumber {
+            color: #000000;
+            position: absolute;
+            top: 50px;
+            right: 90px;
+            font-size: 30px;
+        }
+
+        .secondnumber {
+            position: absolute;
+            color: #000000;
+            right: 45px;
+            top: 50px;
+            font-size: 30px;
+        }
+
+        .countdown .days {
+            font-size: 35px;
+            color: gold;
+        }
+
+        .countdown p {
+            margin: 0;
+        }
+
+        .countdown .text {
+            font-size: 16px;
+        }
+
+        a {
+            word-break: break-all;
+        }
+
+        iframe, img {
+            max-width: 100%;
+        }
+
+        /* === DBIM 3.0 Option 4 Separator Line & Reading Meta Styling === */
+        .pr-share--footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            border-top: 1px solid var(--dbim-border, #d1d5db);
+            padding-top: 16px;
+            margin-top: 24px;
+        }
+
+        .pr-share__left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .pr-reading-meta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.95rem;
+            color: var(--dbim-text-secondary, #475569);
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: auto;
+        }
+
+        .pr-reading-meta__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .pr-reading-meta__divider {
+            color: var(--dbim-border, #cbd5e1);
+            font-weight: 300;
+        }
+
+        .pib-hc .pr-reading-meta,
+        .pib-hc .pr-reading-meta svg {
+            color: currentColor !important;
+        }
+
+        @media (max-width: 680px) {
+            .pr-share--footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .pr-reading-meta {
+                margin-left: 0;
+                width: 100%;
+                justify-content: flex-start;
+            }
+        }
+
+        @media(max-width:1199px) {
+            .firstnumber {
+                top: 40px;
+                right: 72px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 35px;
+                top: 40px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:990px) {
+            .firstnumber {
+                top: 25px;
+                right: 54px;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 25px;
+                top: 25px;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            .countdown, .days {
+                font-size: 12px !important;
+            }
+
+            .firstnumber {
+                top: 25%;
+                right: 8%;
+                font-size: 30px;
+            }
+
+            .secondnumber {
+                right: 4.5%;
+                top: 25%;
+                font-size: 30px;
+            }
+        }
+
+        @media(max-width:475px) {
+            .countdown, .days {
+                font-size: 10px !important;
+                top: 20%;
+            }
+
+            .bannerimgdiv {
+                padding: 0 !important;
+            }
+
+            .bannerimg {
+                width: 108% !important;
+            }
+        }
+    </style>
+    <script type="text/javascript">
+            $(function () {
+                  $("[id*=printPDF]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+            $(function () {
+                  $("[id*=printPDFEvent]").click(function () {
+                        $("[id*=hfGridHtml]").val($("#PdfDiv").html());
+                  });
+            });
+    </script>
+
+    <link id="pibConsentCss" href="/css/consent.css?v=8" rel="stylesheet" type="text/css" /><link id="pibFontsCss" href="/css/fonts-noto.css?v=6" rel="stylesheet" type="text/css" /><link id="pibDbimCss" href="/css/dbim.css?v=1120" rel="stylesheet" type="text/css" /><meta property="og:title" content="भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद" /><meta property="og:url" content="www.pib.gov.in/Pressreleaseshare.aspx?PRID=2078652" /><meta property="og:description" content=" 
+
+भारतीय इतिहास आणि संस्कृती याविषयी जगात निर्माण होत असलेल्या उत्साहाबाबत पंतप्रधान नरेंद्र मोदी" /><meta property="og:image" content="https:/pib.gov.in/images/indian-emblem.png" />
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="C4E7H-KSCMC-422L4-W3EM5-U36MF",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"C4E7H-KSCMC-422L4-W3EM5-U36MF";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="pkyryvixg72tu2xtjfjq-f-be4b03aff-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1825201","ak.ai":parseInt("1215205",10),"ak.ol":"0","ak.cr":9,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"abf749a","ak.r":40321,"ak.a2":n,"ak.m":"dscb","ak.n":"ff","ak.cport":60482,"ak.gh":"23.55.245.54","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"bbr","ak.t":"1794328915","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==89wauZ9gGLjbexOSIsdMzTv/tGSswD8leO3OgyrTRnC8+hZCwIFG9jL7Y+eQZDbuh/xVYSwGavEJcqnCeqTp7LlPtsghTOLo4RCJFYAeBpKlAFspJYUQGk7sj+yjBZgvIG06XKb0F+y/n24wDmQO6FRIcubu9xdLHer0/gqgo/rDzJMYIkamZdp2a7VCjghfSWT0s1ajXAa0g0AfIV2BnCsDuMpB3w/xqTjD3CT6nRgAtlxLtXmvrPn+jJhQOTpchZJLpskvgnAVkVkAdenXy9FwNVA9XanTsgtTIM5EN4LRuyq6e4VdLGBT8zs3wknt2MzMIDqm5Z9y3uwSahyA2+H5y5aDGWGq/4fA4SSMjy7iphSHhABO2sOXjDmUx0xZQ3Lynrtt+8MZzPusa4POmsHesQ4H+1ukDXvA5spllCM=","ak.pv":"9","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+<body>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
+     style="position:absolute;width:0;height:0;overflow:hidden" id="dbim-icon-sprite">
+    <defs>
+        <symbol id="icon-angle-double-left" viewBox="0 0 24 24"><path d="M11.6 4.6 4.2 12l7.4 7.4 2.2-2.2L8.6 12l5.2-5.2z"/><path d="M19 4.6 11.6 12 19 19.4l2.2-2.2L16 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-angle-double-right" viewBox="0 0 24 24"><path d="M12.4 4.6 10.2 6.8 15.4 12l-5.2 5.2 2.2 2.2L19.8 12z"/><path d="M5 4.6 2.8 6.8 8 12l-5.2 5.2L5 19.4 12.4 12z"/></symbol>
+        <symbol id="icon-arrow-left" viewBox="0 0 24 24"><path d="M20.8 10.6H9.6v2.8h11.2z"/><path d="M10.8 5.6 3.2 12l7.6 6.4z"/></symbol>
+        <symbol id="icon-arrow-right" viewBox="0 0 24 24"><path d="M3.2 10.6h11.2v2.8H3.2z"/><path d="M13.2 5.6 20.8 12l-7.6 6.4z"/></symbol>
+        <symbol id="icon-blogger" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M6.4 2.4h11.2a4 4 0 0 1 4 4v11.2a4 4 0 0 1-4 4H6.4a4 4 0 0 1-4-4V6.4a4 4 0 0 1 4-4zm2.8 5.2a2 2 0 0 0 0 4h2.4a2 2 0 0 0 0-4zm0 5.6a2 2 0 0 0 0 4h5.6a2 2 0 0 0 0-4z"/></symbol>
+        <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M7.6 2.4H10v2.4H7.6z"/><path d="M14 2.4h2.4v2.4H14z"/><path fill-rule="evenodd" d="M4 4.8h16a1.6 1.6 0 0 1 1.6 1.6v13.2a1.6 1.6 0 0 1-1.6 1.6H4a1.6 1.6 0 0 1-1.6-1.6V6.4A1.6 1.6 0 0 1 4 4.8zm.4 5.6v8.4h15.2v-8.4z"/><path d="M6.4 12.4h3.2v3.2H6.4z"/></symbol>
+        <symbol id="icon-chevron-left" viewBox="0 0 24 24"><path d="M15.4 4.6 8 12l7.4 7.4 2.2-2.2L12.4 12l5.2-5.2z"/></symbol>
+        <symbol id="icon-chevron-right" viewBox="0 0 24 24"><path d="M8.6 4.6 6.4 6.8 11.6 12l-5.2 5.2 2.2 2.2L16 12z"/></symbol>
+        <symbol id="icon-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/></symbol>
+        <symbol id="icon-download" viewBox="0 0 24 24"><path d="M10.8 3h2.4v7.6h3.4L12 16.6l-4.6-6h3.4z"/><path d="M4 17.2h2.4v2.4h11.2v-2.4H20v3.2a1.4 1.4 0 0 1-1.4 1.4H5.4A1.4 1.4 0 0 1 4 20.4z"/></symbol>
+        <symbol id="icon-facebook" viewBox="0 0 24 24"><path d="M13.6 21.6v-8.4h2.8l.42-3.3h-3.22V7.8c0-.95.27-1.6 1.64-1.6h1.74V3.26a23 23 0 0 0-2.54-.13c-2.5 0-4.22 1.53-4.22 4.34v2.43H7.4v3.3h2.82v8.4z"/></symbol>
+        <symbol id="icon-fact-check" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4 3.6 5.6v6.2c0 4.6 3.4 8.6 8.4 9.8 5-1.2 8.4-5.2 8.4-9.8V5.6zm-1 13.2-3.6-3.6 1.7-1.7 1.9 1.9 4.5-4.5 1.7 1.7z"/></symbol>
+        <symbol id="icon-hashtag" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M8.8 3h2.4l-1 6h3.2l1-6h2.4l-1 6h3.4v2.4h-3.8l-.6 3.2h3.6V17h-4l-1 5h-2.4l1-5h-3.2l-1 5H5.4l1-5H3V14.6h3.8l.6-3.2H3.8V9h4zm.6 8.4-.6 3.2h3.2l.6-3.2z"/></symbol>
+        <symbol id="icon-home" viewBox="0 0 24 24"><path d="M12 3.4 2.8 11.6h2.4v8.4a1 1 0 0 0 1 1h3.3v-5.4h5v5.4h3.3a1 1 0 0 0 1-1v-8.4h2.4z"/></symbol>
+        <symbol id="icon-instagram" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M7.6 2.4h8.8a5.2 5.2 0 0 1 5.2 5.2v8.8a5.2 5.2 0 0 1-5.2 5.2H7.6a5.2 5.2 0 0 1-5.2-5.2V7.6a5.2 5.2 0 0 1 5.2-5.2zm0 2.4a2.8 2.8 0 0 0-2.8 2.8v8.8a2.8 2.8 0 0 0 2.8 2.8h8.8a2.8 2.8 0 0 0 2.8-2.8V7.6a2.8 2.8 0 0 0-2.8-2.8z"/><path fill-rule="evenodd" d="M12 6.8a5.2 5.2 0 1 0 0 10.4 5.2 5.2 0 0 0 0-10.4zm0 2.4a2.8 2.8 0 1 1 0 5.6 2.8 2.8 0 0 1 0-5.6z"/><circle cx="17.3" cy="6.7" r="1.3"/></symbol>
+        <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.8 8.8h3.6v12H4.8z"/><circle cx="6.6" cy="5.4" r="2.1"/><path d="M10.8 8.8h3.45v1.65h.05c.48-.9 1.65-1.85 3.4-1.85 3.63 0 4.3 2.35 4.3 5.4v6.6h-3.6v-5.85c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.52-2.25 3.1v5.95h-3.6z"/></symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M2.4 7.6v9.2a1.6 1.6 0 0 0 1.6 1.6h16a1.6 1.6 0 0 0 1.6-1.6V7.6L12 14z"/><path d="M21.2 5.4H2.8L12 11.8z"/></symbol>
+        <symbol id="icon-mail-open" viewBox="0 0 24 24"><path d="M2.4 9.8h19.2v9.6A1.6 1.6 0 0 1 20 21H4a1.6 1.6 0 0 1-1.6-1.6z"/><path d="M12 2.6 21.6 9.2h-3.8L12 5.3 6.2 9.2H2.4z"/><path d="m3.9 11.2 8.1 5.4 8.1-5.4 1.5 1.3-9.6 6.4-9.6-6.4z"/></symbol>
+        <symbol id="icon-map-marker" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a7 7 0 0 0-7 7c0 5.2 7 12.2 7 12.2s7-7 7-12.2a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></symbol>
+        <symbol id="icon-newspaper" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.8 4.4h14.8v15.2H2.8zm2 2v11.2h10.8V6.4z"/><path d="M6 7.6h8.4v1.6H6z"/><path d="M6 10.8h8.4v1.6H6z"/><path d="M6 14h5.2v1.6H6z"/><path d="M18.4 8.4h2.8v9.6a1.4 1.4 0 0 1-2.8 0z"/></symbol>
+        <symbol id="icon-pause" viewBox="0 0 24 24"><rect x="7.4" y="4" width="3.6" height="16" rx="0.9"/><rect x="13" y="4" width="3.6" height="16" rx="0.9"/></symbol>
+    <symbol id="icon-play" viewBox="0 0 24 24"><path d="M8 4.5v15l12-7.5z"/></symbol>
+        <symbol id="icon-picture" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2.4 5.2h19.2v13.6H2.4zm2 2v9.6h15.2V7.2z"/><path d="M5.6 16.4 10 11l2.6 3 2-2.2 4 4.6z"/><circle cx="8" cy="10.4" r="1.5"/></symbol>
+        <symbol id="icon-press-conference" viewBox="0 0 24 24"><circle cx="12" cy="5.2" r="2.6"/><path d="M7.6 12.2a4.4 4.4 0 0 1 8.8 0z"/><circle cx="4.9" cy="9.6" r="2.2"/><path d="M1.8 15.2a3.1 3.1 0 0 1 6.2 0z"/><circle cx="19.1" cy="9.6" r="2.2"/><path d="M16 15.2a3.1 3.1 0 0 1 6.2 0z"/><path d="M6.6 13.6h10.8l2.2 7.8H4.4z"/></symbol>
+        <symbol id="icon-print" viewBox="0 0 24 24"><path d="M6.4 2.8h11.2v4.4H6.4z"/><path d="M4 8.4h16a1.6 1.6 0 0 1 1.6 1.6v5.6a1.6 1.6 0 0 1-1.6 1.6h-1.6v-2.8H6v2.8H4a1.6 1.6 0 0 1-1.6-1.6V10A1.6 1.6 0 0 1 4 8.4z"/><path d="M7.2 15.6h9.6v5.6H7.2z"/></symbol>
+        <symbol id="icon-rss" viewBox="0 0 24 24"><circle cx="4.8" cy="19.2" r="2.4"/><path d="M2.4 11.2v3.2a6.4 6.4 0 0 1 6.4 6.4H12A9.6 9.6 0 0 0 2.4 11.2z"/><path d="M2.4 4.8V8A13.6 13.6 0 0 1 16 21.6h3.2A16.8 16.8 0 0 0 2.4 4.8z"/></symbol>
+        <symbol id="icon-search-plus" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M10 2.8a7.2 7.2 0 1 0 0 14.4 7.2 7.2 0 0 0 0-14.4zm0 2.4a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z"/><path d="M15.3 14.6 21.2 20.5l-1.5 1.5-5.9-5.9z"/><path d="M9.2 6.8h1.6v2.4h2.4v1.6h-2.4v2.4H9.2v-2.4H6.8V9.2h2.4z"/></symbol>
+        <symbol id="icon-share" viewBox="0 0 24 24"><circle cx="18" cy="5.6" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="18.4" r="3"/><path d="M8.3 10.9 15.7 7.2l.9 1.8-7.4 3.7z"/><path d="M9.2 13.1 16.6 16.8l-.9 1.8-7.4-3.7z"/></symbol>
+        <symbol id="icon-twitter" viewBox="0 0 24 24"><path d="M4.2 3h4.3l11.3 18h-4.3z"/><path d="M19.3 3h-2.6L4.2 21h2.6z"/></symbol>
+        <symbol id="icon-university" viewBox="0 0 24 24"><path d="M12 2.4 21.6 7.2v1.6H2.4V7.2z"/><path d="M4.8 10.4h2.4v8H4.8z"/><path d="M9.2 10.4h2.4v8H9.2z"/><path d="M13.4 10.4h2.4v8h-2.4z"/><path d="M17.6 10.4H20v8h-2.4z"/><path d="M3.2 19.8h17.6v1.8H3.2z"/></symbol>
+        <symbol id="icon-volume-up" viewBox="0 0 24 24"><path d="M3.2 9.2h3.3l5-4.2v14l-5-4.2H3.2z"/><path d="M14.6 8.4a5 5 0 0 1 0 7.2l1.6 1.6a7.2 7.2 0 0 0 0-10.4z"/><path d="M17.4 5.6a8.8 8.8 0 0 1 0 12.8l1.5 1.5a10.9 10.9 0 0 0 0-15.8z"/></symbol>
+        <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2.4a9.5 9.5 0 0 0-8.1 14.5L2.4 21.6l4.8-1.4A9.5 9.5 0 1 0 12 2.4zm0 2.2a7.3 7.3 0 1 1-3.8 13.5l-.4-.2-2.6.7.7-2.5-.3-.4A7.3 7.3 0 0 1 12 4.6z"/><path d="M9.4 7.8c-.2-.5-.4-.5-.6-.5h-.5a1 1 0 0 0-.7.3c-.3.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.7 2.8 4.3 3.8 2.1.8 2.6.7 3 .6.5 0 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3-1.6-.8c-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.6 6.6 0 0 1-1.2-1.6c-.1-.2 0-.4.1-.5l.4-.5.3-.5v-.5z"/></symbol>
+        <symbol id="icon-youtube" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M21.6 7.2a2.8 2.8 0 0 0-2-2C17.9 4.8 12 4.8 12 4.8s-5.9 0-7.6.4a2.8 2.8 0 0 0-2 2A29 29 0 0 0 2 12a29 29 0 0 0 .4 4.8 2.8 2.8 0 0 0 2 2c1.7.4 7.6.4 7.6.4s5.9 0 7.6-.4a2.8 2.8 0 0 0 2-2A29 29 0 0 0 22 12a29 29 0 0 0-.4-4.8zM10.2 15.1V8.9l5.1 3.1z"/></symbol>
+    </defs>
+</svg>
+
+    <form method="post" action="./PressReleasePage.aspx?PRID=2078652&amp;reg=48&amp;lang=2" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="sc_HiddenField" id="sc_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZPQet1wIx1Q48y3xJY2k25Y7qxH5RrQ9qQcN-OiTC9guZtri9w2&amp;t=639191042600000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=x6wALODbMJK5e0eRC_p1LdIxBJXt0U_WW5GWfJqHAqo6frgCmGRfEywglicTersO2OKrFhK1gAIp0Wk2al2YrpdR3uWqH6f4nfjBsCyRUfTUUVmb0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=P5lTttoqSeZXoYRLQMIScH645UK3RD852IErF2548Wz9Ssv0rLjB4fhVKnHcMpqkaMHpNAGOeWY02Lf4aBYN9-dVBme_SNK5KJwmFQNpMixYDZ7M0&amp;t=ffffffffecf8d3f2" type="text/javascript"></script>
+<script src="/PressReleasePage.aspx?_TSM_HiddenField_=sc_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.7.123%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a5a4df314-b4a2-4da2-a207-9284f1b1e96c%3ade1feab2%3af2c8e708%3a8613aea7%3af9cec9bc%3a3202a5a2%3aab09e3fe%3a87104b7c%3a720a52bf%3a589eaa30%3aa67c2700%3abe6fb298" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B53027" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Bbie4j9xevfjKsK5Zqv3Z4IigeOvksm8gMucig9eC37aHWIQuPjcUo0A6vxDqfvmpeYKV7s1AdWEUr5OUe3bfMI9loKunc7f2DwfuWYJO9vhE7HxUtwyItNXh2ft1vjVRh0hpadxvRFsSmPLrPjFv51TkxF5Jvai2FzppYICzvL+kvtGPEyshsGOWzFJfC57FxhPG/GDinj0L1RXHch2FevIBojMoA/3du0VWrdOXOnPWLFRw0IThfDHGPuw0On8t73XF5P+9eV7FDVCzMHKpwNHyLM=" />
+</div>
+        
+        <div id="templateCss"></div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('sc', 'form1', ['tupdate12','update12'], [], [], 90, '');
+//]]>
+</script>
+
+        <input type="hidden" name="hfGridHtml" id="hfGridHtml" />
+        <div class="container" style='margin-bottom: 50px;'>
+            <div id="accessories">
+                
+                <div class="pull-right" style="display: flex">
+                    <div id="voll"></div>
+                    <div id="vollDT"></div>
+                    
+
+<span class="print-icons">
+<input type="image" name="Print1$print" id="Print1_print" aria-label="Print" src="images/printer_icon.png" alt="print page button" style="padding: 5px 10px 5px 10px;" />
+</span>
+                </div>
+            </div>
+            <input type="hidden" name="hydpermid" id="hydpermid" value="2078652" />
+            
+
+            <div class="innner-page-main-about-us-content-right-part">
+                <div id="MinistryName" class="MinistryNameSubhead text-center">
+                    पंतप्रधान कार्यालय
+                </div>
+                <div id="lg_g"><div class='log_oo'>  <img src='https://static.pib.gov.in/WriteReadData/specificdocs/photo/2026/sep/ph_9768_20260902_10000501.png' alt='azadi ka amrit mahotsav' /> </div></div>
+
+                <div class="text-center event-heading-background">
+                    
+                    <h1 id="Titleh2">
+                        भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद
+                    </h1>
+                    <h3 id="Subtitleh3">
+                        <span id="ltrSubtitle"></span>
+                    </h3>
+                </div>
+
+                <div id="PrDateTime" class="ReleaseDateSubHeaddateTime text-center pt20">
+                    Posted On:
+                              28 NOV 2024 4:49PM by PIB Mumbai
+                </div>
+                
+                <div class='pt20'>
+                </div>
+                <input type="hidden" name="hydphotoUrl" id="hydphotoUrl" />
+                
+
+                <!-- Release content wrapper for client-side zero-reflow word count -->
+                <div id="pibReleaseBody">
+                    <p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">भारतीय इतिहास आणि संस्कृती याविषयी जगात निर्माण होत असलेल्या उत्साहाबाबत पंतप्रधान नरेंद्र मोदी यांनी आनंद व्यक्त केला आहे. भारतीय संस्कृतीचा सूर संपूर्ण जगात दुमदुमत&nbsp; आहे</span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">, </span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">असे पंतप्रधान नरेंद्र मोदी म्हणाले. त्यांच्या परदेश दौऱ्याची काही दृश्ये सामाईक करत पंतप्रधान मोदी म्हणाले की आपला इतिहास आणि संस्कृती याविषयी इतक्या मोठ्या प्रमाणातील हा उत्साह अतिशय आनंददायी आहे.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">एक्सवरील एका पोस्टमध्ये पंतप्रधान नरेंद्र&nbsp; मोदी यांनी लिहिलेः</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">&quot;</span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">भारतीय संस्कृतीचा सूर जगात दुमदुमत आहे! मी जिथे जिथे जातो</span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">, </span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">आपला इतिहास आणि संस्कृती याविषयी मला प्रचंड उत्साह दिसतो जे अतिशय आऩंददायी आहे. ही पहा याची एक झलक&hellip;&quot;</span></span></p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Indian culture resonates globally! <br><br>Wherever I go, I see immense enthusiasm towards our history and culture, which is extremely gladdening. Here is a glimpse… <a href="https://t.co/IXmOCYgYgW">pic.twitter.com/IXmOCYgYgW</a></p>&mdash; Narendra Modi (@narendramodi) <a href="https://twitter.com/narendramodi/status/1862081617864409531?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p style="text-align:center"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">***</span></span></p>
+
+<p><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">N.Chitale/S.Patil/P.Kor</span></span></p>
+<p style="text-align:center">&nbsp;</p>
+ 
+<p style="text-align:center"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#1155cc">सोशल मिडियावर आम्हाला फॉलो करा:&nbsp;<img src="http://static.pib.gov.in/WriteReadData/userfiles/image/Twitter-iconI0HR.jpg" style="height:20px; width:20px" /></span><a href="https://twitter.com/pibmumbai" target="_blank">@PIBMumbai</a>&nbsp;&nbsp; <img alt="Image result for facebook icon" src="http://static.pib.gov.in/WriteReadData/userfiles/image/fbO3SQ.jpg" style="height:16px; width:16px" />&nbsp;/<a href="https://www.facebook.com/PIBMumbai/" target="_blank">PIBMumbai</a>&nbsp; &nbsp;<img alt="" src="http://static.pib.gov.in/WriteReadData/userfiles/image/Instagram-IconX9CA.png" style="height:20px; width:20px" />&nbsp;<a href="http://instagram.com/pibmumbai" target="_blank">/pibmumbai</a>&nbsp;&nbsp;<a style='color:black;text-decoration:none;pointer-events:none;' href=pibmumbai[at]gmail[dot]com"><img alt="" src="http://static.pib.gov.in/WriteReadData/userfiles/image/emailXG3L.jpg" style="height:22px; width:20px" />pibmumbai[at]gmail[dot]com</a></span></span></p>
+
+                </div>
+
+                <div id="reel_pic">
+                </div>
+
+                <br />
+                <span id="ReleaseId">(Release ID: 2078652)</span>
+                <span id="lblViews">अभ्यागत कक्ष : 86</span>
+                <div>
+                    
+                </div>
+                
+
+                <span id="lblRefPhoto"></span>
+
+                <div class="BackgroundRelease">
+                    
+                </div>
+                <div>
+                    
+                </div>
+                <div class="ReleaseLang">Read this releasein: 
+                
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078506' target="_blank">
+                            English </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078543' target="_blank">
+                            Urdu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2079388' target="_blank">
+                            हिन्दी </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2177618' target="_blank">
+                            Bengali </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078902' target="_blank">
+                            Assamese </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078719' target="_blank">
+                            Manipuri </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2079452' target="_blank">
+                            Punjabi </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078542' target="_blank">
+                            Gujarati </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2079342' target="_blank">
+                            Odia </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078722' target="_blank">
+                            Tamil </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078610' target="_blank">
+                            Telugu </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2178369' target="_blank">
+                            Kannada </a>
+                    
+                        ,
+                    
+                        <a href='https://pib.gov.in/PressReleasePage.aspx?PRID=2078576' target="_blank">
+                            Malayalam </a>
+                    
+                </div>
+
+                <div class="RelTag">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="clear">
+                </div>
+
+                <!-- DBIM 3.0 Option 4: Separator Line with Left Share Rail & Right Reading Metrics -->
+                <div class="pr-share pr-share--footer" role="region" aria-label="Share and reading details">
+                    <div class="pr-share__left">
+                        <span class="pr-share__label" aria-hidden="true">Share</span>
+                        <ul class="pr-share__list">
+                            <li><a class="pr-share__btn pr-share__btn--facebook"
+                                href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078652"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on Facebook">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-facebook" xlink:href="#icon-facebook"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--twitter"
+                                href="https://twitter.com/intent/tweet?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078652"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on X">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-twitter" xlink:href="#icon-twitter"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--whatsapp"
+                                href="https://api.whatsapp.com/send?text=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078652"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on WhatsApp">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-whatsapp" xlink:href="#icon-whatsapp"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--linkedin"
+                                href="https://www.linkedin.com/sharing/share-offsite/?url=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078652"
+                                target="_blank" rel="noopener noreferrer"
+                                aria-label="Share on LinkedIn">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-linkedin" xlink:href="#icon-linkedin"></use>
+                                </svg>
+                            </a></li>
+                            <li><a class="pr-share__btn pr-share__btn--mail"
+                                href="mailto:?subject=Press+release+from+PIB&amp;body=https%3a%2f%2fpib.gov.in%2fPressReleasePage.aspx%3fPRID%3d2078652"
+                                aria-label="Share by email">
+                                <svg class="dbim-icon dbim-icon-24" width="24" height="24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <use href="#icon-mail" xlink:href="#icon-mail"></use>
+                                </svg>
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="pr-reading-meta" id="prReadingMeta" aria-label="Reading statistics">
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Document / Word Count Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5" />
+                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                            </svg>
+                            <span id="prWordCount">-- words</span>
+                        </span>
+
+                        <span class="pr-reading-meta__divider" aria-hidden="true">|</span>
+
+                        <span class="pr-reading-meta__item">
+                            <!-- Modern Precision Clock / Read Time Icon -->
+                            <svg class="pr-reading-meta__icon" width="18" height="18" viewbox="0 0 16 16" fill="currentColor" aria-hidden="true" focusable="false">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                            </svg>
+                            <span id="prReadTime">-- min read</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div id="RelLink" class="RelLink">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <center>
+                    
+                </center>
+            </div>
+
+            <div id="update12">
+	
+                    
+                    <input type="hidden" name="Hidden" id="Hidden" />
+                    <div id="P_CategoryManagement" class="ModalWindow" style="border-width:0px;height:60%;width:60%;overflow:auto;display: none">
+		
+                        <div>
+                            <input type="image" name="btnClose" id="btnClose" src="images/close_flat_icon.png" />
+                        </div>
+                        <div id="description">
+                        </div>
+                        <div class="text-center">
+                            <h2>
+                                
+                                <br>
+                                
+                            </h2>
+                        </div>
+                        <br />
+                        <div class="clear">
+                        </div>
+                        
+                    
+	</div>
+                
+</div>
+        </div>
+
+        <div id="PdfDiv" style="display: none;">
+            <table width="100%">
+                <tr>
+                    <td style="font-weight: 200; text-align: center">
+                        पंतप्रधान कार्यालय
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: center; font-size: 30px;">
+                            
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="text-align: center; font-size: 14px;">
+                            Posted On:
+                                          28 NOV 2024 4:49PM by PIB Mumbai
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 200; text-align: left; font-size: 16px;">
+                            <p style="text-align:justify">&nbsp;</p>
+
+<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">भारतीय इतिहास आणि संस्कृती याविषयी जगात निर्माण होत असलेल्या उत्साहाबाबत पंतप्रधान नरेंद्र मोदी यांनी आनंद व्यक्त केला आहे. भारतीय संस्कृतीचा सूर संपूर्ण जगात दुमदुमत&nbsp; आहे</span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">, </span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">असे पंतप्रधान नरेंद्र मोदी म्हणाले. त्यांच्या परदेश दौऱ्याची काही दृश्ये सामाईक करत पंतप्रधान मोदी म्हणाले की आपला इतिहास आणि संस्कृती याविषयी इतक्या मोठ्या प्रमाणातील हा उत्साह अतिशय आनंददायी आहे.</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">एक्सवरील एका पोस्टमध्ये पंतप्रधान नरेंद्र&nbsp; मोदी यांनी लिहिलेः</span></span></p>
+
+<p style="text-align:justify"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">&quot;</span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">भारतीय संस्कृतीचा सूर जगात दुमदुमत आहे! मी जिथे जिथे जातो</span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">, </span></span><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">आपला इतिहास आणि संस्कृती याविषयी मला प्रचंड उत्साह दिसतो जे अतिशय आऩंददायी आहे. ही पहा याची एक झलक&hellip;&quot;</span></span></p>
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">Indian culture resonates globally! <br><br>Wherever I go, I see immense enthusiasm towards our history and culture, which is extremely gladdening. Here is a glimpse… <a href="https://t.co/IXmOCYgYgW">pic.twitter.com/IXmOCYgYgW</a></p>&mdash; Narendra Modi (@narendramodi) <a href="https://twitter.com/narendramodi/status/1862081617864409531?ref_src=twsrc%5Etfw">November 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p style="text-align:center"><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">***</span></span></p>
+
+<p><span style="font-size:12.0pt"><span style="font-family:&quot;Mangal&quot;,&quot;serif&quot;">N.Chitale/S.Patil/P.Kor</span></span></p>
+<p style="text-align:center">&nbsp;</p>
+ 
+<p style="text-align:center"><span style="font-size:14px"><span style="font-family:Arial,Helvetica,sans-serif"><span style="color:#1155cc">सोशल मिडियावर आम्हाला फॉलो करा:&nbsp;<img src="http://static.pib.gov.in/WriteReadData/userfiles/image/Twitter-iconI0HR.jpg" style="height:20px; width:20px" /></span><a href="https://twitter.com/pibmumbai" target="_blank">@PIBMumbai</a>&nbsp;&nbsp; <img alt="Image result for facebook icon" src="http://static.pib.gov.in/WriteReadData/userfiles/image/fbO3SQ.jpg" style="height:16px; width:16px" />&nbsp;/<a href="https://www.facebook.com/PIBMumbai/" target="_blank">PIBMumbai</a>&nbsp; &nbsp;<img alt="" src="http://static.pib.gov.in/WriteReadData/userfiles/image/Instagram-IconX9CA.png" style="height:20px; width:20px" />&nbsp;<a href="http://instagram.com/pibmumbai" target="_blank">/pibmumbai</a>&nbsp;&nbsp;<a style='color:black;text-decoration:none;pointer-events:none;' href=pibmumbai[at]gmail[dot]com"><img alt="" src="http://static.pib.gov.in/WriteReadData/userfiles/image/emailXG3L.jpg" style="height:22px; width:20px" />pibmumbai[at]gmail[dot]com</a></span></span></p>
+
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                        <div style="font-weight: 100; text-align: left; font-size: 16px;">
+                            (Release ID: 2078652)
+                        </div>
+                        <div style="height: 30px; width: 100%;">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 200; text-align: center; font-size: 24px;"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="clearfix">
+        </div>
+
+        <div class="section1">
+            <div id="frst_t">
+                <div id="arr_rm"><div class='sticky-social_mb'><ul class='social_mb'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652&text=भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652&title=भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+            <div id="second_t">
+                <div id="sndr_rm"><div class='sticky-social'><ul class='social'><a href='http://www.facebook.com/share.php?u=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652' target='_blank'><li class='fb_b'   ></li></a><a href='https://twitter.com/intent/tweet?url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652&text=भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद' target='_blank'><li class='twitter_r'  > </li></a><a href='https://api.whatsapp.com/send?text=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652' target='_blank'><li class='whatsapp_r'  ></li></a><a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद&body=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652&ui=2&tf=1&pli=1' title='Share by Email' target='_blank'><li class='fa-envelope_r' ></li></a><a href='https://www.linkedin.com/shareArticle?mini=true&url=https://pib.gov.in/PressReleasePage.aspx?PRID=2078652&title=भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद&summary=My%20favorite%20developer%20program&source=LinkedIn' target='_blank'><li class='fa-linkedin_r'  ></li></a></ul></div></div>
+            </div>
+        </div>
+        <input type="hidden" name="ltrTitlee" id="ltrTitlee" value="भारतीय इतिहास आणि संस्कृती विषयीच्या जागतिक उत्साहाबाबत पंतप्रधानांनी व्यक्त केला आनंद" />
+        <input type="hidden" name="ltrSubtitlee" id="ltrSubtitlee" />
+        <input type="hidden" name="ltrDescriptionn" id="ltrDescriptionn" value="&lt;p style=&quot;text-align:justify&quot;>&amp;nbsp;&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>भारतीय इतिहास आणि संस्कृती याविषयी जगात निर्माण होत असलेल्या उत्साहाबाबत पंतप्रधान नरेंद्र मोदी यांनी आनंद व्यक्त केला आहे. भारतीय संस्कृतीचा सूर संपूर्ण जगात दुमदुमत&amp;nbsp; आहे&lt;/span>&lt;/span>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>, &lt;/span>&lt;/span>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>असे पंतप्रधान नरेंद्र मोदी म्हणाले. त्यांच्या परदेश दौऱ्याची काही दृश्ये सामाईक करत पंतप्रधान मोदी म्हणाले की आपला इतिहास आणि संस्कृती याविषयी इतक्या मोठ्या प्रमाणातील हा उत्साह अतिशय आनंददायी आहे.&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>एक्सवरील एका पोस्टमध्ये पंतप्रधान नरेंद्र&amp;nbsp; मोदी यांनी लिहिलेः&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p style=&quot;text-align:justify&quot;>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>&amp;quot;&lt;/span>&lt;/span>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>भारतीय संस्कृतीचा सूर जगात दुमदुमत आहे! मी जिथे जिथे जातो&lt;/span>&lt;/span>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>, &lt;/span>&lt;/span>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>आपला इतिहास आणि संस्कृती याविषयी मला प्रचंड उत्साह दिसतो जे अतिशय आऩंददायी आहे. ही पहा याची एक झलक&amp;hellip;&amp;quot;&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;>Indian culture resonates globally! &lt;br>&lt;br>Wherever I go, I see immense enthusiasm towards our history and culture, which is extremely gladdening. Here is a glimpse… &lt;a href=&quot;https://t.co/IXmOCYgYgW&quot;>pic.twitter.com/IXmOCYgYgW&lt;/a>&lt;/p>&amp;mdash; Narendra Modi (@narendramodi) &lt;a href=&quot;https://twitter.com/narendramodi/status/1862081617864409531?ref_src=twsrc%5Etfw&quot;>November 28, 2024&lt;/a> 
+
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>***&lt;/span>&lt;/span>&lt;/p>
+
+&lt;p>&lt;span style=&quot;font-size:12.0pt&quot;>&lt;span style=&quot;font-family:&amp;quot;Mangal&amp;quot;,&amp;quot;serif&amp;quot;&quot;>N.Chitale/S.Patil/P.Kor&lt;/span>&lt;/span>&lt;/p>
+&lt;p style=&quot;text-align:center&quot;>&amp;nbsp;&lt;/p>
+ 
+&lt;p style=&quot;text-align:center&quot;>&lt;span style=&quot;font-size:14px&quot;>&lt;span style=&quot;font-family:Arial,Helvetica,sans-serif&quot;>&lt;span style=&quot;color:#1155cc&quot;>सोशल मिडियावर आम्हाला फॉलो करा:&amp;nbsp;&lt;img src=&quot;http://static.pib.gov.in/WriteReadData/userfiles/image/Twitter-iconI0HR.jpg&quot; style=&quot;height:20px; width:20px&quot; />&lt;/span>&lt;a href=&quot;https://twitter.com/pibmumbai&quot; target=&quot;_blank&quot;>@PIBMumbai&lt;/a>&amp;nbsp;&amp;nbsp; &lt;img alt=&quot;Image result for facebook icon&quot; src=&quot;http://static.pib.gov.in/WriteReadData/userfiles/image/fbO3SQ.jpg&quot; style=&quot;height:16px; width:16px&quot; />&amp;nbsp;/&lt;a href=&quot;https://www.facebook.com/PIBMumbai/&quot; target=&quot;_blank&quot;>PIBMumbai&lt;/a>&amp;nbsp; &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;http://static.pib.gov.in/WriteReadData/userfiles/image/Instagram-IconX9CA.png&quot; style=&quot;height:20px; width:20px&quot; />&amp;nbsp;&lt;a href=&quot;http://instagram.com/pibmumbai&quot; target=&quot;_blank&quot;>/pibmumbai&lt;/a>&amp;nbsp;&amp;nbsp;&lt;a href=&quot;mailto:pibmumbai@gmail.com&quot;>&lt;img alt=&quot;&quot; src=&quot;http://static.pib.gov.in/WriteReadData/userfiles/image/emailXG3L.jpg&quot; style=&quot;height:22px; width:20px&quot; />pibmumbai@gmail.com&lt;/a>&lt;/span>&lt;/span>&lt;/p>
+" />
+        <script type="text/javascript">
+                  var mPlayer = document.getElementById("background_music");
+                  var mPlayAction = document.getElementById("playbutton");
+                  var isPlaying = false;
+
+                  function playAudio() {
+                        mPlayer.play();
+                        isPlaying = true;
+                        document.getElementById('stopA').style.display = "block";
+                        document.getElementById('playA').style.display = "none";
+                  }
+
+                  function pauseAudio() {
+                        mPlayer.pause();
+                        isPlaying = false;
+                        document.getElementById('playA').style.display = "block";
+                        document.getElementById('stopA').style.display = "none";
+                  }
+        </script>
+        <script type="text/javascript">
+                  var synth = window.speechSynthesis;
+
+                  function CleanHtml(html) {
+                        html = html.replace(/<script[\s\S]*?<\/script>/gi, '');
+                        return html;
+                  }
+                  function stripHtml(html) {
+                        let tmp = document.createElement("DIV");
+                        tmp.innerHTML = CleanHtml(html);
+                        return tmp.textContent || tmp.innerText || "";
+                  }
+        </script>
+        <script type="text/javascript">
+                  $(document).ready(function () {
+                        $("table").each(function () {
+                              if (!$(this).closest(".table-responsive").length) {
+                                    $(this).wrap("<div class='table-responsive'></div>");
+                              }
+                        });
+
+                        var width = $(window).width();
+                        if (width < 768) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 991) {
+                              document.getElementById('frst_t').style.display = "block";
+                              document.getElementById('second_t').style.display = "none";
+                        } else if (width < 1199) {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        } else {
+                              document.getElementById('frst_t').style.display = "none";
+                              document.getElementById('second_t').style.display = "block";
+                        }
+                  });
+        </script>
+        <style type="text/css">
+            @media print {
+                .sticky-social, .sticky-social_mb, .pull-right, #printPDF {
+                    display: none !important;
+                }
+            }
+
+            .f_vl {
+                padding-right: 30px;
+                font-size: 17px;
+                cursor: pointer;
+            }
+
+            .log_oo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+                .log_oo img {
+                    width: 150px;
+                }
+
+            .sticky-social_mb {
+                position: fixed;
+                bottom: 0px;
+                padding: 0px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            .social_mb {
+                list-style: none;
+                display: flex;
+                width: 100%;
+                margin-bottom: -8px;
+            }
+
+                .social_mb a {
+                    padding: 8px 0px;
+                    font-size: 30px;
+                    transition: all 0.8s ease-in-out;
+                    width: 20% !important;
+                    text-align: center;
+                }
+        </style>
+        <style type="text/css">
+            .section1 {
+                position: relative;
+                padding: 10px 0px;
+                width: 100%;
+            }
+
+            .sticky-social {
+                position: fixed;
+                top: 20px;
+                left: 0px;
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .social {
+                list-style: none;
+            }
+
+                .social a li {
+                    padding: 8px 12px;
+                    font-size: 25px;
+                    transition: all 0.8s ease-in-out;
+                }
+
+                    .social a li:hover {
+                        margin-right: -30px;
+                        box-shadow: 2px 5px 10px grey;
+                    }
+
+                        .social a li:hover .fa {
+                            margin-left: 20px;
+                        }
+
+            .fb_b {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .twitter_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .whatsapp_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-envelope_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+
+            .fa-linkedin_r {
+                background-color: var(--dbim-key, #0F5757);
+            }
+        </style>
+        <style type="text/css">
+            @media only screen and (max-device-width: 767px) {
+                p span img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                p img {
+                    max-width: 90% !important;
+                    height: auto !important;
+                }
+
+                h2 {
+                    font-size: var(--dbim-h2, 20px);
+                    font-weight: 600 !important;
+                }
+
+                h3 {
+                    font-size: var(--dbim-h3, 16px);
+                    font-weight: 600 !important;
+                }
+            }
+        </style>
+        <style type="text/css">
+            .film-roll-badge {
+                position: absolute;
+                top: 82%;
+                right: 20px;
+                width: 230px;
+                height: 70px;
+                background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 18px, var(--dbim-text, #150202) 18px, var(--dbim-text, #150202) 36px );
+                border-top: 8px solid var(--dbim-green-key, #0F5757);
+                border-bottom: 8px solid var(--dbim-green-key, #0F5757);
+                border-radius: 8px;
+                overflow: hidden;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+                animation: moveFilm 8s linear infinite;
+                z-index: 10;
+            }
+
+                .film-roll-badge::before,
+                .film-roll-badge::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 10px;
+                    background: repeating-linear-gradient( to right, var(--dbim-green-key, #0F5757) 0px, var(--dbim-green-key, #0F5757) 10px, #fff 10px, #fff 20px );
+                    left: 0;
+                    z-index: 2;
+                }
+
+                .film-roll-badge::before {
+                    top: -4px;
+                }
+
+                .film-roll-badge::after {
+                    bottom: -4px;
+                }
+
+            .film-roll-inner {
+                position: relative;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                animation: flicker 2s infinite ease-in-out;
+            }
+
+            .countdown-text {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: #fff;
+                text-shadow: 0 0 6px rgba(255, 255, 255, 0.4), 0 0 10px #000;
+                white-space: nowrap;
+            }
+
+            @keyframes moveFilm {
+                0% {
+                    background-position: 0 0;
+                }
+
+                100% {
+                    background-position: 120px 0;
+                }
+            }
+
+            @keyframes flicker {
+                0%, 100% {
+                    opacity: 1;
+                }
+
+                50% {
+                    opacity: 0.9;
+                }
+
+                25% {
+                    opacity: 0.95;
+                }
+
+                75% {
+                    opacity: 0.85;
+                }
+            }
+
+            @media (max-width: 1500px) {
+                .film-roll-badge {
+                    top: 68%;
+                    right: 18px;
+                    height: 65px;
+                    font-size: 0.85rem;
+                }
+
+                .press-section {
+                    margin-top: 35px;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .film-roll-badge {
+                    top: 52%;
+                    right: 10px;
+                    width: 200px;
+                    height: 60px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .film-roll-badge {
+                    top: 56%;
+                    right: 10px;
+                    width: 124px;
+                    height: 55px;
+                }
+
+                .countdown-text {
+                    font-size: 0.9rem;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .film-roll-badge {
+                    top: 59%;
+                    right: 5px;
+                    height: 50px;
+                }
+
+                .countdown-text {
+                    font-size: 0.85rem;
+                }
+            }
+        </style>
+        <script type="text/javascript">
+                  const festivalStart = new Date("2025-11-20T00:00:00").getTime();
+                  const festivalEnd = new Date("2025-11-28T23:59:59").getTime();
+                  const countdownElement = document.getElementById("countdown");
+
+                  if (countdownElement) {
+                        const interval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < festivalStart) {
+                                    const diff = festivalStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+                                    countdownElement.innerHTML = `${days} Day${days !== 1 ? 's' : ''} ${hours} Hour${hours !== 1 ? 's' : ''} to go`;
+                              } else if (now >= festivalStart && now <= festivalEnd) {
+                                    const dayNumber = Math.floor((now - festivalStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    countdownElement.innerHTML = `56th IFFI - Day ${dayNumber}`;
+                              } else {
+                                    countdownElement.innerHTML = `✨ IFFI closes but never ends…`;
+                                    const elements = document.querySelectorAll('.film-roll-badge');
+                                    elements.forEach(el => el.style.width = "350px");
+                                    clearInterval(interval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+        <script type="text/javascript">
+                  const miffStart = new Date("2026-06-15T00:00:00").getTime();
+                  const miffEnd = new Date("2026-06-15T23:59:59").getTime();
+                  const miffElement = document.getElementById("miff");
+
+                  if (miffElement) {
+                        const miffInterval = setInterval(() => {
+                              const now = new Date().getTime();
+
+                              if (now < miffStart) {
+                                    const diff = miffStart - now;
+                                    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                                    miffElement.innerHTML = `${days} Day${days === 1 ? '' : 's'} to MIFF ...`;
+                              } else if (now >= miffStart && now <= miffEnd) {
+                                    const dayNumber = Math.floor((now - miffStart) / (1000 * 60 * 60 * 24)) + 1;
+                                    miffElement.innerHTML = `19th MIFF - Day ${dayNumber}`;
+                              } else {
+                                    miffElement.innerHTML = `✨ MIFF concludes, cinema lives on...`;
+                                    document.querySelectorAll('.film-roll-badge').forEach(el => el.style.width = "350px");
+                                    clearInterval(miffInterval);
+                              }
+                        }, 1000);
+                  }
+        </script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("sc_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","PopupControlID":"P_CategoryManagement","dynamicServicePath":"/PressReleasePage.aspx","id":"mpe"}, null, null, $get("Hidden"));
+});
+//]]>
+</script>
+<input type="hidden" name="__ncforminfo" value="ouf953ZEDVjGJJxfRENNNTnOX-51j6z52ANoFAvvtPydarp2IySn_4Rg0bB_aaKjLxLJMVuCRBhpY2jyXlRMfYSPUfq6D8IB"/></form>
+    
+
+<script type="application/json" id="pibConsentConfig">{"ga4Id":"G-Q414Y0X6EE,G-QJJ6LZ8LHV","policyUrl":"/CookiePolicy.aspx","text":{"bannerLabel":"Cookie consent","title":"Cookies on this website","body":"We use essential cookies to make this website work. We also set analytics cookies when you arrive, so we can see how the site is used and improve it - you can switch these off below or at any time from the Cookie Policy page. Cookies from embedded social media content are set only if you allow them.","policyLink":"Read our Cookie Policy","accept":"Accept all","reject":"Reject optional","customize":"Customise","prefsTitle":"Cookie preferences","prefsIntro":"Choose which cookies this website may set. Essential cookies cannot be switched off because the site does not work without them. Analytics cookies are on unless you turn them off. Social media cookies stay off until you allow them. You can change these choices at any time from the Cookie Policy page.","essentialName":"Essential cookies","essentialDesc":"Needed for the site to function. These remember your session, your language and region, your text size and colour theme, and verify the security check on forms. They are always on.","analyticsName":"Analytics cookies","analyticsDesc":"Help us understand how visitors use the site - which pages are read and how long people stay - so it can be improved. The information is collected in a form that does not directly identify you. These are on when you arrive; switching them off here stops them and deletes the ones already set.","socialName":"Social media cookies","socialDesc":"Set by content embedded from X, Facebook and YouTube, such as timelines and videos. These platforms may use them to track you across websites. They stay off until you allow them.","save":"Save preferences","cancel":"Cancel"}}</script>
+<script type="text/javascript" src='/js/consent.js?v=10'></script>
+
+<script type="text/javascript" src='/js/consent-embeds.js?v=10'></script>
+
+
+    <!-- Minimal O(N) Time and O(1) Auxiliary Space Word Count & Read Time Calculation -->
+    <script type="text/javascript">
+            (function () {
+                  function calculateReadingStats() {
+                        var bodyEl = document.getElementById("pibReleaseBody");
+                        if (!bodyEl) return;
+
+                        // textContent extracts text without triggering expensive layout/reflow computations
+                        var text = bodyEl.textContent || "";
+                        var words = 0;
+                        var inWord = false;
+
+                        // O(N) single pass character code scan: achieves O(1) space with zero array allocations
+                        for (var i = 0, len = text.length; i < len; i++) {
+                              var code = text.charCodeAt(i);
+                              // Delimits on ASCII whitespace, control characters, tabs, newlines, and non-breaking spaces (160)
+                              if (code <= 32 || code === 160) {
+                                    inWord = false;
+                              } else if (!inWord) {
+                                    inWord = true;
+                                    words++;
+                              }
+                        }
+
+                        // Standard 250 WPM reading speed (e.g., 612 words yields 2 min read)
+                        var minutes = Math.max(1, Math.round(words / 250));
+
+                        var elWords = document.getElementById("prWordCount");
+                        var elTime = document.getElementById("prReadTime");
+
+                        if (elWords) elWords.textContent = words + (words === 1 ? " word" : " words");
+                        if (elTime) elTime.textContent = minutes + " min read";
+                  }
+
+                  if (document.readyState === "loading") {
+                        document.addEventListener("DOMContentLoaded", calculateReadingStats);
+                  } else {
+                        calculateReadingStats();
+                  }
+            })();
+    </script>
+
+    <script type="text/javascript">
+            (function () {
+                  try {
+                        if (window.self === window.top) { return; }
+                  } catch (e) { return; }
+                  var s = document.createElement("style");
+                  s.textContent = ".sticky-social, .sticky-social_mb { display: none !important; }";
+                  (document.head || document.documentElement).appendChild(s);
+            }());
+    </script>
+</body>
+</html>

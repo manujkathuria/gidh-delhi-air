@@ -1,0 +1,45 @@
+file,column,description,unit,data_type
+stations.csv,station_id,Unique integer identifier for the monitoring station,dimensionless,integer
+stations.csv,station_name,Official name of the continuous air quality monitoring station,string,string
+stations.csv,city,City of station location (Delhi),string,string
+stations.csv,operator,"Operating authority (DPCC - Delhi Pollution Control Committee, CPCB - Central Pollution Control Board)",string,string
+stations.csv,latitude,Geographic latitude of station (if provided in official records),degrees_north,float
+stations.csv,longitude,Geographic longitude of station (if provided in official records),degrees_east,float
+source_files.csv,source_file_id,Unique integer identifier for raw government telemetry batch,dimensionless,integer
+source_files.csv,station_id,Foreign key reference to monitoring station in stations.csv,dimensionless,integer
+source_files.csv,filename,Standardized source filename of original government telemetry report,string,string
+source_files.csv,source_type,Category of telemetry data (CAAQMS raw telemetry vs AQI calculated index),string,string
+source_files.csv,file_format,File format of source archive (CSV or XLSX),string,string
+source_files.csv,reporting_period_start,Start timestamp of the file reporting window (ISO 8601 UTC),ISO 8601 datetime,datetime
+source_files.csv,reporting_period_end,End timestamp of the file reporting window (ISO 8601 UTC),ISO 8601 datetime,datetime
+source_files.csv,row_count,Total observation rows loaded from this source batch,count,integer
+source_files.csv,processing_status,Database ingestion and ETL status (loaded),string,string
+caaqms_hourly.csv,station_id,Foreign key identifier referencing stations.csv,dimensionless,integer
+caaqms_hourly.csv,source_file_id,Foreign key identifier referencing source_files.csv for data lineage,dimensionless,integer
+caaqms_hourly.csv,timestamp,Observation hourly timestamp (ISO 8601 with Asia/Kolkata +05:30 offset),ISO 8601 datetime,datetime
+caaqms_hourly.csv,pm25,Fine particulate matter with aerodynamic diameter <= 2.5 micrometers,µg/m³,float
+caaqms_hourly.csv,pm10,Coarse particulate matter with aerodynamic diameter <= 10 micrometers,µg/m³,float
+caaqms_hourly.csv,no,Nitric oxide concentration,µg/m³,float
+caaqms_hourly.csv,no2,Nitrogen dioxide concentration,µg/m³,float
+caaqms_hourly.csv,nox,Total oxides of nitrogen concentration,ppb,float
+caaqms_hourly.csv,nh3,Ammonia concentration,µg/m³,float
+caaqms_hourly.csv,so2,Sulfur dioxide concentration,µg/m³,float
+caaqms_hourly.csv,co,Carbon monoxide concentration,mg/m³,float
+caaqms_hourly.csv,o3,Ground-level ozone concentration,µg/m³,float
+caaqms_hourly.csv,benzene,Benzene volatile organic compound concentration,µg/m³,float
+caaqms_hourly.csv,toluene,Toluene volatile organic compound concentration,µg/m³,float
+caaqms_hourly.csv,xylene,Xylene volatile organic compound concentration (unpopulated in CPCB sensors),µg/m³,float
+caaqms_hourly.csv,temperature,Ambient air temperature,°C,float
+caaqms_hourly.csv,humidity,Relative humidity,%,float
+caaqms_hourly.csv,wind_speed,Horizontal wind speed,m/s,float
+caaqms_hourly.csv,wind_direction,Wind direction in compass degrees (0-360°),degrees,float
+caaqms_hourly.csv,rainfall,Precipitation recorded during the hour,mm,float
+caaqms_hourly.csv,solar_radiation,Global solar irradiance,W/m²,float
+caaqms_hourly.csv,barometric_pressure,Atmospheric pressure,mmHg,float
+caaqms_hourly.csv,vertical_wind_speed,Vertical wind velocity component,m/s,float
+caaqms_hourly.csv,qc_flags,JSON dictionary of non-destructive quality control flags (e.g. out-of-bounds sentinels nullified),JSON string,string
+aqi_hourly.csv,station_id,Foreign key identifier referencing stations.csv,dimensionless,integer
+aqi_hourly.csv,source_file_id,Foreign key identifier referencing source_files.csv for data lineage,dimensionless,integer
+aqi_hourly.csv,timestamp,Reporting hourly timestamp (ISO 8601 with Asia/Kolkata +05:30 offset),ISO 8601 datetime,datetime
+aqi_hourly.csv,aqi_value,Official CPCB calculated Air Quality Index (0-500 scale),AQI index points,float
+aqi_hourly.csv,qc_flags,JSON dictionary of quality control flags if applicable,JSON string,string
