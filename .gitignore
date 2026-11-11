@@ -43,3 +43,20 @@ yarn-error.log*
 dist/
 build/
 
+
+# Research intermediates and generated web publication copies
+data/processed/*
+!data/processed/README.md
+apps/web/public/research/
+apps/web/public/.research-staging/
+*.tsbuildinfo
+
+# Local-only configuration and production media
+.env
+.env.*
+!.env.example
+*.mp4
+*.mov
+*.wav
+*.prproj
+*.drp

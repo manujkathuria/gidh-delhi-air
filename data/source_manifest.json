@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "iari_paddy_2025_77",
+      "local_path": "data/primary_sources/iari_paddy_bulletin_77_2025-11-30.pdf",
+      "url": "https://creams.iari.res.in/Creams_website_bulletin/Fire_bulletin_2025/Fire_bulletin_2025r/77.RiceResidueFireBulletin_30Nov_2025_ICAR.pdf",
+      "publisher": "ICAR-IARI (CREAMS)",
+      "title": "Monitoring Paddy Residue Burning in India Using Satellite Remote Sensing During 2025, Bulletin 77",
+      "issued": "2025-11-30",
+      "status": "verified_primary",
+      "sha256": "6e6d7de868d2dca1a5ba15d3483b7fa619861092783dbacf84b3dca4064d2078",
+      "retrieved_at_utc": "2026-11-10T18:51:20.833375+00:00"
+    },
+    {
+      "source_id": "iitk_dpcc_2016",
+      "local_path": "data/primary_sources/iitk_dpcc_delhi_report_2016.pdf",
+      "url": "https://home.iitk.ac.in/~mukesh/Publications/DPCC_2016_SA%20study%20IIT%20Kanpur%20report_Comprehensive%20Study%20on%20Air%20Pollution%20and%20Green%20House%20Gases%20%28GHGs%29%20in%20Delhi.pdf",
+      "publisher": "IIT Kanpur / DPCC",
+      "title": "Comprehensive Study on Air Pollution and Green House Gases (GHGs) in Delhi, Final Report: Air Pollution component",
+      "issued": "2016-01",
+      "status": "verified_primary",
+      "sha256": "d03b06f219615455274e4153120736d7d768b51f206342f761176f75b3dfe6a1",
+      "retrieved_at_utc": "2026-11-10T18:51:20.842544+00:00"
+    },
+    {
+      "source_id": "kaggle_telemetry_v1",
+      "local_path": "data/primary_sources/kaggle_telemetry_v1.zip",
+      "url": "https://www.kaggle.com/api/v1/datasets/download/siddharthdongardive/delhi-air-quality-monitoring-dataset-2023-2026?datasetVersionNumber=1",
+      "publisher": "Siddharth Dongardive (third-party redistribution)",
+      "title": "Delhi Air Quality Monitoring Dataset 2023-2026, version 1",
+      "issued": "2026-09-17",
+      "status": "verified_redistribution_only",
+      "sha256": "3c9143ea037cc5f960a3fdbdcbee52b3071767a1e9d13b24e30c20121811cf71",
+      "retrieved_at_utc": "2026-11-10T18:54:37.760472+00:00"
+    },
+    {
+      "source_id": "kaggle_metadata",
+      "local_path": "data/primary_sources/kaggle_dataset_metadata.json",
+      "url": "https://www.kaggle.com/api/v1/datasets/list?search=delhi-air-quality-monitoring-dataset-2023-2026",
+      "publisher": "Kaggle",
+      "title": "Public dataset search metadata",
+      "issued": null,
+      "status": "archive_metadata",
+      "sha256": "5cbb7afe9dd3111d52b7dadf9c87b792e18fd1c9bf86a3b68037c80004f45038",
+      "retrieved_at_utc": "2026-11-10T18:51:20.847744+00:00"
+    },
+    {
+      "source_id": "kaggle_details",
+      "local_path": "data/primary_sources/kaggle_dataset_details.json",
+      "url": "https://www.kaggle.com/api/v1/datasets/view/siddharthdongardive/delhi-air-quality-monitoring-dataset-2023-2026",
+      "publisher": "Siddharth Dongardive / Kaggle",
+      "title": "Dataset description and version history",
+      "issued": null,
+      "status": "publisher_metadata",
+      "sha256": "a25a922fb2e9dc5395f9c2cff69d7f919d3a6f1cba6e3250c51e5db5cf271151",
+      "retrieved_at_utc": "2026-11-10T19:00:50.611712+00:00"
+    }
+  ],
+  "telemetry": {
+    "source_id": "kaggle_telemetry_v1",
+    "dataset_version": 1,
+    "publisher_claimed_primary_authorities": [
+      "DPCC",
+      "CPCB"
+    ],
+    "primary_exports_verified": false,
+    "upstream_transformation_code_available": false,
+    "license": "Publisher claims derivation under OGD Platform India terms; underlying CPCB/DPCC permission/applicability not independently verified.",
+    "files": [
+      {
+        "path": "data/delhi_air_quality_monitoring_dataset/aqi_hourly.csv",
+        "archive_member": "aqi_hourly.csv",
+        "sha256": "8c45be88f4cf8ba7b4beac15cdc9333f34733f7bb368d96c80fbcca11006bf0c"
+      },
+      {
+        "path": "data/delhi_air_quality_monitoring_dataset/caaqms_hourly.csv",
+        "archive_member": "caaqms_hourly.csv",
+        "sha256": "321490b722ead2277aa2d0c86e73ea98556d5db1c6999934597dcbecb340276c"
+      },
+      {
+        "path": "data/delhi_air_quality_monitoring_dataset/column_metadata.csv",
+        "archive_member": "column_metadata.csv",
+        "sha256": "66188e7e42ba4fd74a63b17e3144d1ad01b71d138f02c43f513e48083f6c7e21"
+      },
+      {
+        "path": "data/delhi_air_quality_monitoring_dataset/source_files.csv",
+        "archive_member": "source_files.csv",
+        "sha256": "01757fdd123a0152471f20b86e2a136694e5a21b9838a225e6d9ad0a5edfd3f3"
+      },
+      {
+        "path": "data/delhi_air_quality_monitoring_dataset/stations.csv",
+        "archive_member": "stations.csv",
+        "sha256": "5aeac270090dd1af8f7067a8154fd0c7d1027b0c9338648ed61d5ffbe45a71a7"
+      }
+    ]
+  },
+  "unresolved_requirements": [
+    {
+      "id": "telemetry_primary_lineage",
+      "description": "Obtain original CPCB/DPCC exports and upstream ETL/QC rules, then reconcile against the pinned Kaggle observations."
+    },
+    {
+      "id": "district_daily_observations",
+      "description": "Obtain and parse real district daily bulletins for 2023-2025 if retaining the original district-level scope; no inferred allocation is acceptable."
+    },
+    {
+      "id": "telemetry_license",
+      "description": "Confirm applicability of the publisher-claimed OGD terms to the original CPCB/DPCC exports and this redistribution."
+    }
+  ]
+}

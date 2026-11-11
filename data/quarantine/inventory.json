@@ -1,0 +1,30 @@
+[
+  {
+    "path": "caqm_stubble_burning_annual_totals.csv",
+    "sha256": "2b1ee04c9066336f0eca29d1b4606760d3ce0cfb0dc04020c469b98f1e70d6a5"
+  },
+  {
+    "path": "cpcb_iitk_source_apportionment.csv",
+    "sha256": "95a813c6f62f6e4a0e8e3279ae6741fdc61211aa294bf993f229a262c4f40b83"
+  },
+  {
+    "path": "iari_daily_stubble_fires.csv",
+    "sha256": "c39c05561ccf08a12722f955e1e8710a23778424b1c49ac74b14a9f870e5dbc0"
+  },
+  {
+    "path": "iari_district_daily_stubble_fires.csv",
+    "sha256": "9fe60940bad2811234e5ab942017a9e4c472206c67bb23120d599068ffd2212f"
+  },
+  {
+    "path": "pib_release_2023_PRID_1981276.html",
+    "sha256": "17c16bdfadd35f16a006c3201203b33b61fbc94d71e8b5716a69ccd3fdcdd691"
+  },
+  {
+    "path": "pib_release_2024_PRID_2078652.html",
+    "sha256": "ef1d4345f36dfe7fe71634e0b688a15d0108360659c69dd30334522bd161e169"
+  },
+  {
+    "path": "pib_release_2025_PRID_2196420.html",
+    "sha256": "807f036aad2c2929837c74d494640c8e750c9ea7c69317787d4fcf4ecf2df9b9"
+  }
+]

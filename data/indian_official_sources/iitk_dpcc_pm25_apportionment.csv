@@ -1,0 +1,19 @@
+study,season,pollutant,source_sector,share_percentage,statistic,sampling_period,method,source_id,source_pdf_page,source_printed_page,source_table,source_row
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Secondary particles,29.88,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Biomass burning,25.84,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Industrial,0.78,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Coal and fly ash,4.79,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Construction material,1.52,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Soil and road dust,4.29,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Boiler,0.01,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Solid waste burning,7.75,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Winter,PM2.5,Vehicles,25.14,"Overall row, six study sites",2013-2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,293,248,4.20(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Secondary particles,14.89,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Biomass burning,12.16,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Industrial,1.19,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Coal and fly ash,25.95,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Construction material,3.0,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Soil and road dust,27.07,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Boiler,0.11,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Solid waste burning,7.23,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall
+IIT Kanpur / DPCC Delhi final report (2016),Summer,PM2.5,Vehicles,8.5,"Overall row, six study sites",2014,Chemical Mass Balance receptor modelling,iitk_dpcc_2016,295,250,4.24(b),Overall

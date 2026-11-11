@@ -1,0 +1,22 @@
+{
+  "name": "delhi-air-research",
+  "private": true,
+  "workspaces": [
+    "apps/web"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run research:sync && npm run dev --workspace @delhi-air/web",
+    "build": "npm run research:sync && npm run build --workspace @delhi-air/web",
+    "check": "npm run typecheck --workspace @delhi-air/web && npm run lint --workspace @delhi-air/web",
+    "preview": "npm run preview --workspace @delhi-air/web",
+    "research:sync": "node scripts/sync-research.mjs",
+    "research:verify": "uv run --project research --locked python -m gidh_delhi_air.verify --integrity-only",
+    "research:readiness": "uv run --project research --locked python -m gidh_delhi_air.verify",
+    "research:ingest": "uv run --project research --locked python -m gidh_delhi_air.ingest",
+    "research:test": "uv run --project research --locked python -m unittest discover -s research/tests -v",
+    "research:investigations": "uv run --project research --locked python -m gidh_delhi_air.investigations"
+  }
+}

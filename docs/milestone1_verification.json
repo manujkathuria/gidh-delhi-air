@@ -1,0 +1,790 @@
+{
+  "integrity_passed": true,
+  "milestone_complete": false,
+  "errors": [],
+  "blockers": [
+    "Obtain original CPCB/DPCC exports and upstream ETL/QC rules, then reconcile against the pinned Kaggle observations.",
+    "Obtain and parse real district daily bulletins for 2023-2025 if retaining the original district-level scope; no inferred allocation is acceptable.",
+    "Confirm applicability of the publisher-claimed OGD terms to the original CPCB/DPCC exports and this redistribution."
+  ],
+  "checks": {
+    "evidence_hashes": 5,
+    "telemetry_archive_byte_matches": 5,
+    "iari_state_daily_fires.csv": {
+      "rows": 1386,
+      "matches_primary_extraction": true
+    },
+    "caqm_stubble_burning_annual_totals.csv": {
+      "rows": 18,
+      "matches_primary_extraction": true
+    },
+    "iitk_dpcc_pm25_apportionment.csv": {
+      "rows": 18,
+      "matches_primary_extraction": true
+    },
+    "fire_daily_totals_reconcile": true,
+    "apportionment_totals": {
+      "Summer": 100.1,
+      "Winter": 100.0
+    }
+  },
+  "telemetry": {
+    "caaqms_hourly": {
+      "rows": 162096,
+      "station_count": 7,
+      "null_fraction": {
+        "station_id": 0.0,
+        "source_file_id": 0.0,
+        "timestamp": 0.0,
+        "pm25": 0.05042073832790445,
+        "pm10": 0.05180263547527391,
+        "no": 0.03403538643766657,
+        "no2": 0.03460912052117264,
+        "nox": 0.03058681275293653,
+        "nh3": 0.03472016582765768,
+        "so2": 0.059952127134537556,
+        "co": 0.035633205014312504,
+        "o3": 0.042487168097917284,
+        "benzene": 0.1731011252591057,
+        "toluene": 0.2839428486822624,
+        "xylene": 1.0,
+        "temperature": 0.1637054584937321,
+        "humidity": 0.16303301747112822,
+        "wind_speed": 0.17044220708715824,
+        "wind_direction": 0.16938727667555029,
+        "rainfall": 0.565997927154279,
+        "solar_radiation": 0.1638843648208469,
+        "barometric_pressure": 0.30629380120422467,
+        "vertical_wind_speed": 0.698950004935347,
+        "qc_flags": 0.9942626591649393
+      },
+      "negative_value_counts": {
+        "pm25": 0,
+        "pm10": 0,
+        "no": 0,
+        "no2": 0,
+        "nox": 0,
+        "nh3": 0,
+        "so2": 0,
+        "co": 0,
+        "o3": 0,
+        "benzene": 0,
+        "toluene": 0,
+        "xylene": 0,
+        "temperature": 0,
+        "humidity": 0,
+        "wind_speed": 0,
+        "wind_direction": 0,
+        "rainfall": 0,
+        "solar_radiation": 0,
+        "barometric_pressure": 0,
+        "vertical_wind_speed": 22683
+      },
+      "coverage_by_station_year": [
+        {
+          "station_id": 3,
+          "year": 2023,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 3,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 3,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 3,
+          "year": 2026,
+          "rows": 5088,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 3672,
+          "first_timestamp": "2026-01-01T00:00:00+05:30",
+          "last_timestamp": "2026-08-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "station_id": 4,
+          "year": 2023,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 4,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 4,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 4,
+          "year": 2026,
+          "rows": 5088,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 3672,
+          "first_timestamp": "2026-01-01T00:00:00+05:30",
+          "last_timestamp": "2026-08-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "station_id": 5,
+          "year": 2023,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2023-01-01T00:00:00+05:30",
+          "last_timestamp": "2023-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 5,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 5,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 5,
+          "year": 2026,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 6,
+          "year": 2023,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 6,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 6,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 6,
+          "year": 2026,
+          "rows": 5088,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 3672,
+          "first_timestamp": "2026-01-01T00:00:00+05:30",
+          "last_timestamp": "2026-08-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "station_id": 7,
+          "year": 2023,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 7,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 7,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 7,
+          "year": 2026,
+          "rows": 5088,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 3672,
+          "first_timestamp": "2026-01-01T00:00:00+05:30",
+          "last_timestamp": "2026-08-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "station_id": 8,
+          "year": 2023,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 8,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 8,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 8,
+          "year": 2026,
+          "rows": 5088,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 3672,
+          "first_timestamp": "2026-01-01T00:00:00+05:30",
+          "last_timestamp": "2026-08-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        },
+        {
+          "station_id": 9,
+          "year": 2023,
+          "rows": 0,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 8760,
+          "first_timestamp": null,
+          "last_timestamp": null,
+          "months_with_rows": []
+        },
+        {
+          "station_id": 9,
+          "year": 2024,
+          "rows": 8784,
+          "calendar_year_hours": 8784,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2024-01-01T00:00:00+05:30",
+          "last_timestamp": "2024-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 9,
+          "year": 2025,
+          "rows": 8760,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 0,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 9,
+          "year": 2026,
+          "rows": 5088,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 3672,
+          "first_timestamp": "2026-01-01T00:00:00+05:30",
+          "last_timestamp": "2026-08-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8
+          ]
+        }
+      ],
+      "coverage_note": "Calendar-year gaps include unprovided periods; they do not establish sensor outages."
+    },
+    "aqi_hourly": {
+      "rows": 57946,
+      "station_count": 7,
+      "null_fraction": {
+        "station_id": 0.0,
+        "source_file_id": 0.0,
+        "timestamp": 0.0,
+        "aqi_value": 0.0,
+        "qc_flags": 1.0
+      },
+      "negative_value_counts": {
+        "aqi_value": 0,
+        "qc_flags": 0
+      },
+      "coverage_by_station_year": [
+        {
+          "station_id": 3,
+          "year": 2025,
+          "rows": 8130,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 630,
+          "first_timestamp": "2025-01-01T01:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 4,
+          "year": 2025,
+          "rows": 8598,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 162,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 5,
+          "year": 2025,
+          "rows": 8454,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 306,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 6,
+          "year": 2025,
+          "rows": 8181,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 579,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 7,
+          "year": 2025,
+          "rows": 8501,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 259,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 8,
+          "year": 2025,
+          "rows": 7838,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 922,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        },
+        {
+          "station_id": 9,
+          "year": 2025,
+          "rows": 8244,
+          "calendar_year_hours": 8760,
+          "hours_without_rows_in_calendar_year": 516,
+          "first_timestamp": "2025-01-01T00:00:00+05:30",
+          "last_timestamp": "2025-12-31T23:00:00+05:30",
+          "months_with_rows": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "coverage_note": "Calendar-year gaps include unprovided periods; they do not establish sensor outages."
+    }
+  }
+}

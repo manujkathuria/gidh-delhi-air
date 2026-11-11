@@ -1,0 +1,1387 @@
+date,year,state,geographic_scope,daily_fire_count,reporting_agency,source_id,source_pdf_page,source_row
+2020-09-15,2020,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2020-09-16,2020,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2020-09-17,2020,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2020-09-18,2020,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2020-09-19,2020,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2020-09-20,2020,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2020-09-21,2020,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2020-09-22,2020,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2020-09-23,2020,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2020-09-24,2020,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2020-09-25,2020,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2020-09-26,2020,Haryana,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2020-09-27,2020,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2020-09-28,2020,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2020-09-29,2020,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2020-09-30,2020,Haryana,whole_state,22,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2020-10-01,2020,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2020-10-02,2020,Haryana,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2020-10-03,2020,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2020-10-04,2020,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2020-10-05,2020,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2020-10-06,2020,Haryana,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2020-10-07,2020,Haryana,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2020-10-08,2020,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2020-10-09,2020,Haryana,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2020-10-10,2020,Haryana,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2020-10-11,2020,Haryana,whole_state,90,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2020-10-12,2020,Haryana,whole_state,69,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2020-10-13,2020,Haryana,whole_state,47,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2020-10-14,2020,Haryana,whole_state,69,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2020-10-15,2020,Haryana,whole_state,106,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2020-10-16,2020,Haryana,whole_state,80,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2020-10-17,2020,Haryana,whole_state,143,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2020-10-18,2020,Haryana,whole_state,166,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2020-10-19,2020,Haryana,whole_state,72,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2020-10-20,2020,Haryana,whole_state,62,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2020-10-21,2020,Haryana,whole_state,101,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2020-10-22,2020,Haryana,whole_state,128,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2020-10-23,2020,Haryana,whole_state,106,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2020-10-24,2020,Haryana,whole_state,57,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2020-10-25,2020,Haryana,whole_state,155,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2020-10-26,2020,Haryana,whole_state,77,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2020-10-27,2020,Haryana,whole_state,96,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2020-10-28,2020,Haryana,whole_state,139,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2020-10-29,2020,Haryana,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2020-10-30,2020,Haryana,whole_state,100,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2020-10-31,2020,Haryana,whole_state,108,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2020-11-01,2020,Haryana,whole_state,151,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2020-11-02,2020,Haryana,whole_state,111,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2020-11-03,2020,Haryana,whole_state,93,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2020-11-04,2020,Haryana,whole_state,72,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2020-11-05,2020,Haryana,whole_state,66,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2020-11-06,2020,Haryana,whole_state,151,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2020-11-07,2020,Haryana,whole_state,150,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2020-11-08,2020,Haryana,whole_state,115,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2020-11-09,2020,Haryana,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2020-11-10,2020,Haryana,whole_state,80,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2020-11-11,2020,Haryana,whole_state,93,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2020-11-12,2020,Haryana,whole_state,83,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2020-11-13,2020,Haryana,whole_state,105,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2020-11-14,2020,Haryana,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2020-11-15,2020,Haryana,whole_state,31,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2020-11-16,2020,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2020-11-17,2020,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2020-11-18,2020,Haryana,whole_state,60,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2020-11-19,2020,Haryana,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2020-11-20,2020,Haryana,whole_state,77,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2020-11-21,2020,Haryana,whole_state,65,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2020-11-22,2020,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2020-11-23,2020,Haryana,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2020-11-24,2020,Haryana,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2020-11-25,2020,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2020-11-26,2020,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2020-11-27,2020,Haryana,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2020-11-28,2020,Haryana,whole_state,57,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2020-11-29,2020,Haryana,whole_state,65,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2020-11-30,2020,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2020-09-15,2020,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2020-09-16,2020,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2020-09-17,2020,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2020-09-18,2020,Punjab,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2020-09-19,2020,Punjab,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2020-09-20,2020,Punjab,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2020-09-21,2020,Punjab,whole_state,54,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2020-09-22,2020,Punjab,whole_state,34,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2020-09-23,2020,Punjab,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2020-09-24,2020,Punjab,whole_state,78,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2020-09-25,2020,Punjab,whole_state,184,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2020-09-26,2020,Punjab,whole_state,190,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2020-09-27,2020,Punjab,whole_state,78,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2020-09-28,2020,Punjab,whole_state,55,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2020-09-29,2020,Punjab,whole_state,63,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2020-09-30,2020,Punjab,whole_state,116,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2020-10-01,2020,Punjab,whole_state,165,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2020-10-02,2020,Punjab,whole_state,141,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2020-10-03,2020,Punjab,whole_state,110,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2020-10-04,2020,Punjab,whole_state,162,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2020-10-05,2020,Punjab,whole_state,161,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2020-10-06,2020,Punjab,whole_state,171,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2020-10-07,2020,Punjab,whole_state,197,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2020-10-08,2020,Punjab,whole_state,95,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2020-10-09,2020,Punjab,whole_state,121,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2020-10-10,2020,Punjab,whole_state,232,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2020-10-11,2020,Punjab,whole_state,377,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2020-10-12,2020,Punjab,whole_state,388,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2020-10-13,2020,Punjab,whole_state,266,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2020-10-14,2020,Punjab,whole_state,605,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2020-10-15,2020,Punjab,whole_state,449,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2020-10-16,2020,Punjab,whole_state,654,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2020-10-17,2020,Punjab,whole_state,1172,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2020-10-18,2020,Punjab,whole_state,938,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2020-10-19,2020,Punjab,whole_state,1080,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2020-10-20,2020,Punjab,whole_state,890,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2020-10-21,2020,Punjab,whole_state,1392,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2020-10-22,2020,Punjab,whole_state,1665,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2020-10-23,2020,Punjab,whole_state,1438,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2020-10-24,2020,Punjab,whole_state,911,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2020-10-25,2020,Punjab,whole_state,1416,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2020-10-26,2020,Punjab,whole_state,2126,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2020-10-27,2020,Punjab,whole_state,2563,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2020-10-28,2020,Punjab,whole_state,3232,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2020-10-29,2020,Punjab,whole_state,1624,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2020-10-30,2020,Punjab,whole_state,3946,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2020-10-31,2020,Punjab,whole_state,3531,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2020-11-01,2020,Punjab,whole_state,3835,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2020-11-02,2020,Punjab,whole_state,4098,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2020-11-03,2020,Punjab,whole_state,2818,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2020-11-04,2020,Punjab,whole_state,4584,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2020-11-05,2020,Punjab,whole_state,4529,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2020-11-06,2020,Punjab,whole_state,5382,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2020-11-07,2020,Punjab,whole_state,5491,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2020-11-08,2020,Punjab,whole_state,3674,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2020-11-09,2020,Punjab,whole_state,1718,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2020-11-10,2020,Punjab,whole_state,3127,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2020-11-11,2020,Punjab,whole_state,2822,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2020-11-12,2020,Punjab,whole_state,1989,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2020-11-13,2020,Punjab,whole_state,2441,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2020-11-14,2020,Punjab,whole_state,307,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2020-11-15,2020,Punjab,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2020-11-16,2020,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2020-11-17,2020,Punjab,whole_state,248,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2020-11-18,2020,Punjab,whole_state,670,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2020-11-19,2020,Punjab,whole_state,454,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2020-11-20,2020,Punjab,whole_state,677,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2020-11-21,2020,Punjab,whole_state,457,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2020-11-22,2020,Punjab,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2020-11-23,2020,Punjab,whole_state,43,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2020-11-24,2020,Punjab,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2020-11-25,2020,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2020-11-26,2020,Punjab,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2020-11-27,2020,Punjab,whole_state,124,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2020-11-28,2020,Punjab,whole_state,84,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2020-11-29,2020,Punjab,whole_state,55,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2020-11-30,2020,Punjab,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2020-09-15,2020,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2020-09-16,2020,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2020-09-17,2020,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2020-09-18,2020,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2020-09-19,2020,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2020-09-20,2020,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2020-09-21,2020,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2020-09-22,2020,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2020-09-23,2020,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2020-09-24,2020,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2020-09-25,2020,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2020-09-26,2020,Uttar Pradesh,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2020-09-27,2020,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2020-09-28,2020,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2020-09-29,2020,Uttar Pradesh,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2020-09-30,2020,Uttar Pradesh,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2020-10-01,2020,Uttar Pradesh,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2020-10-02,2020,Uttar Pradesh,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2020-10-03,2020,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2020-10-04,2020,Uttar Pradesh,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2020-10-05,2020,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2020-10-06,2020,Uttar Pradesh,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2020-10-07,2020,Uttar Pradesh,whole_state,41,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2020-10-08,2020,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2020-10-09,2020,Uttar Pradesh,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2020-10-10,2020,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2020-10-11,2020,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2020-10-12,2020,Uttar Pradesh,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2020-10-13,2020,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2020-10-14,2020,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2020-10-15,2020,Uttar Pradesh,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2020-10-16,2020,Uttar Pradesh,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2020-10-17,2020,Uttar Pradesh,whole_state,38,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2020-10-18,2020,Uttar Pradesh,whole_state,76,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2020-10-19,2020,Uttar Pradesh,whole_state,43,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2020-10-20,2020,Uttar Pradesh,whole_state,31,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2020-10-21,2020,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2020-10-22,2020,Uttar Pradesh,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2020-10-23,2020,Uttar Pradesh,whole_state,84,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2020-10-24,2020,Uttar Pradesh,whole_state,63,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2020-10-25,2020,Uttar Pradesh,whole_state,50,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2020-10-26,2020,Uttar Pradesh,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2020-10-27,2020,Uttar Pradesh,whole_state,40,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2020-10-28,2020,Uttar Pradesh,whole_state,87,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2020-10-29,2020,Uttar Pradesh,whole_state,139,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2020-10-30,2020,Uttar Pradesh,whole_state,50,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2020-10-31,2020,Uttar Pradesh,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2020-11-01,2020,Uttar Pradesh,whole_state,74,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2020-11-02,2020,Uttar Pradesh,whole_state,82,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2020-11-03,2020,Uttar Pradesh,whole_state,197,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2020-11-04,2020,Uttar Pradesh,whole_state,152,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2020-11-05,2020,Uttar Pradesh,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2020-11-06,2020,Uttar Pradesh,whole_state,43,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2020-11-07,2020,Uttar Pradesh,whole_state,86,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2020-11-08,2020,Uttar Pradesh,whole_state,169,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2020-11-09,2020,Uttar Pradesh,whole_state,115,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2020-11-10,2020,Uttar Pradesh,whole_state,101,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2020-11-11,2020,Uttar Pradesh,whole_state,71,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2020-11-12,2020,Uttar Pradesh,whole_state,108,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2020-11-13,2020,Uttar Pradesh,whole_state,172,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2020-11-14,2020,Uttar Pradesh,whole_state,258,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2020-11-15,2020,Uttar Pradesh,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2020-11-16,2020,Uttar Pradesh,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2020-11-17,2020,Uttar Pradesh,whole_state,38,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2020-11-18,2020,Uttar Pradesh,whole_state,62,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2020-11-19,2020,Uttar Pradesh,whole_state,129,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2020-11-20,2020,Uttar Pradesh,whole_state,134,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2020-11-21,2020,Uttar Pradesh,whole_state,135,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2020-11-22,2020,Uttar Pradesh,whole_state,120,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2020-11-23,2020,Uttar Pradesh,whole_state,106,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2020-11-24,2020,Uttar Pradesh,whole_state,167,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2020-11-25,2020,Uttar Pradesh,whole_state,127,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2020-11-26,2020,Uttar Pradesh,whole_state,83,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2020-11-27,2020,Uttar Pradesh,whole_state,54,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2020-11-28,2020,Uttar Pradesh,whole_state,118,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2020-11-29,2020,Uttar Pradesh,whole_state,247,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2020-11-30,2020,Uttar Pradesh,whole_state,206,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2021-09-15,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2021-09-16,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2021-09-17,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2021-09-18,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2021-09-19,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2021-09-20,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2021-09-21,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2021-09-22,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2021-09-23,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2021-09-24,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2021-09-25,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2021-09-26,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2021-09-27,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2021-09-28,2021,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2021-09-29,2021,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2021-09-30,2021,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2021-10-01,2021,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2021-10-02,2021,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2021-10-03,2021,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2021-10-04,2021,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2021-10-05,2021,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2021-10-06,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2021-10-07,2021,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2021-10-08,2021,Haryana,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2021-10-09,2021,Haryana,whole_state,39,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2021-10-10,2021,Haryana,whole_state,95,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2021-10-11,2021,Haryana,whole_state,51,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2021-10-12,2021,Haryana,whole_state,51,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2021-10-13,2021,Haryana,whole_state,91,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2021-10-14,2021,Haryana,whole_state,98,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2021-10-15,2021,Haryana,whole_state,363,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2021-10-16,2021,Haryana,whole_state,176,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2021-10-17,2021,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2021-10-18,2021,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2021-10-19,2021,Haryana,whole_state,55,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2021-10-20,2021,Haryana,whole_state,155,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2021-10-21,2021,Haryana,whole_state,131,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2021-10-22,2021,Haryana,whole_state,140,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2021-10-23,2021,Haryana,whole_state,218,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2021-10-24,2021,Haryana,whole_state,38,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2021-10-25,2021,Haryana,whole_state,71,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2021-10-26,2021,Haryana,whole_state,175,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2021-10-27,2021,Haryana,whole_state,93,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2021-10-28,2021,Haryana,whole_state,149,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2021-10-29,2021,Haryana,whole_state,161,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2021-10-30,2021,Haryana,whole_state,148,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2021-10-31,2021,Haryana,whole_state,353,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2021-11-01,2021,Haryana,whole_state,124,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2021-11-02,2021,Haryana,whole_state,203,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2021-11-03,2021,Haryana,whole_state,197,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2021-11-04,2021,Haryana,whole_state,228,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2021-11-05,2021,Haryana,whole_state,331,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2021-11-06,2021,Haryana,whole_state,219,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2021-11-07,2021,Haryana,whole_state,182,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2021-11-08,2021,Haryana,whole_state,138,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2021-11-09,2021,Haryana,whole_state,217,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2021-11-10,2021,Haryana,whole_state,184,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2021-11-11,2021,Haryana,whole_state,126,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2021-11-12,2021,Haryana,whole_state,127,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2021-11-13,2021,Haryana,whole_state,210,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2021-11-14,2021,Haryana,whole_state,195,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2021-11-15,2021,Haryana,whole_state,129,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2021-11-16,2021,Haryana,whole_state,269,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2021-11-17,2021,Haryana,whole_state,101,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2021-11-18,2021,Haryana,whole_state,111,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2021-11-19,2021,Haryana,whole_state,132,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2021-11-20,2021,Haryana,whole_state,127,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2021-11-21,2021,Haryana,whole_state,178,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2021-11-22,2021,Haryana,whole_state,91,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2021-11-23,2021,Haryana,whole_state,59,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2021-11-24,2021,Haryana,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2021-11-25,2021,Haryana,whole_state,41,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2021-11-26,2021,Haryana,whole_state,48,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2021-11-27,2021,Haryana,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2021-11-28,2021,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2021-11-29,2021,Haryana,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2021-11-30,2021,Haryana,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2021-09-15,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2021-09-16,2021,Punjab,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2021-09-17,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2021-09-18,2021,Punjab,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2021-09-19,2021,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2021-09-20,2021,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2021-09-21,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2021-09-22,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2021-09-23,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2021-09-24,2021,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2021-09-25,2021,Punjab,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2021-09-26,2021,Punjab,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2021-09-27,2021,Punjab,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2021-09-28,2021,Punjab,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2021-09-29,2021,Punjab,whole_state,64,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2021-09-30,2021,Punjab,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2021-10-01,2021,Punjab,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2021-10-02,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2021-10-03,2021,Punjab,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2021-10-04,2021,Punjab,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2021-10-05,2021,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2021-10-06,2021,Punjab,whole_state,42,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2021-10-07,2021,Punjab,whole_state,72,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2021-10-08,2021,Punjab,whole_state,108,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2021-10-09,2021,Punjab,whole_state,114,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2021-10-10,2021,Punjab,whole_state,150,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2021-10-11,2021,Punjab,whole_state,64,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2021-10-12,2021,Punjab,whole_state,97,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2021-10-13,2021,Punjab,whole_state,132,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2021-10-14,2021,Punjab,whole_state,229,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2021-10-15,2021,Punjab,whole_state,660,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2021-10-16,2021,Punjab,whole_state,429,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2021-10-17,2021,Punjab,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2021-10-18,2021,Punjab,whole_state,57,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2021-10-19,2021,Punjab,whole_state,496,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2021-10-20,2021,Punjab,whole_state,788,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2021-10-21,2021,Punjab,whole_state,597,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2021-10-22,2021,Punjab,whole_state,1111,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2021-10-23,2021,Punjab,whole_state,620,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2021-10-24,2021,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2021-10-25,2021,Punjab,whole_state,76,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2021-10-26,2021,Punjab,whole_state,329,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2021-10-27,2021,Punjab,whole_state,279,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2021-10-28,2021,Punjab,whole_state,906,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2021-10-29,2021,Punjab,whole_state,1353,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2021-10-30,2021,Punjab,whole_state,1373,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2021-10-31,2021,Punjab,whole_state,2895,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2021-11-01,2021,Punjab,whole_state,1796,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2021-11-02,2021,Punjab,whole_state,3001,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2021-11-03,2021,Punjab,whole_state,2512,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2021-11-04,2021,Punjab,whole_state,3032,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2021-11-05,2021,Punjab,whole_state,5327,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2021-11-06,2021,Punjab,whole_state,3942,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2021-11-07,2021,Punjab,whole_state,5199,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2021-11-08,2021,Punjab,whole_state,4397,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2021-11-09,2021,Punjab,whole_state,5079,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2021-11-10,2021,Punjab,whole_state,4008,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2021-11-11,2021,Punjab,whole_state,4156,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2021-11-12,2021,Punjab,whole_state,3403,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2021-11-13,2021,Punjab,whole_state,3742,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2021-11-14,2021,Punjab,whole_state,2541,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2021-11-15,2021,Punjab,whole_state,1761,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2021-11-16,2021,Punjab,whole_state,1757,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2021-11-17,2021,Punjab,whole_state,523,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2021-11-18,2021,Punjab,whole_state,680,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2021-11-19,2021,Punjab,whole_state,448,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2021-11-20,2021,Punjab,whole_state,283,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2021-11-21,2021,Punjab,whole_state,168,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2021-11-22,2021,Punjab,whole_state,66,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2021-11-23,2021,Punjab,whole_state,91,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2021-11-24,2021,Punjab,whole_state,34,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2021-11-25,2021,Punjab,whole_state,31,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2021-11-26,2021,Punjab,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2021-11-27,2021,Punjab,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2021-11-28,2021,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2021-11-29,2021,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2021-11-30,2021,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2021-09-15,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2021-09-16,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2021-09-17,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2021-09-18,2021,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2021-09-19,2021,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2021-09-20,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2021-09-21,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2021-09-22,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2021-09-23,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2021-09-24,2021,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2021-09-25,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2021-09-26,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2021-09-27,2021,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2021-09-28,2021,Uttar Pradesh,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2021-09-29,2021,Uttar Pradesh,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2021-09-30,2021,Uttar Pradesh,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2021-10-01,2021,Uttar Pradesh,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2021-10-02,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2021-10-03,2021,Uttar Pradesh,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2021-10-04,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2021-10-05,2021,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2021-10-06,2021,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2021-10-07,2021,Uttar Pradesh,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2021-10-08,2021,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2021-10-09,2021,Uttar Pradesh,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2021-10-10,2021,Uttar Pradesh,whole_state,54,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2021-10-11,2021,Uttar Pradesh,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2021-10-12,2021,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2021-10-13,2021,Uttar Pradesh,whole_state,42,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2021-10-14,2021,Uttar Pradesh,whole_state,68,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2021-10-15,2021,Uttar Pradesh,whole_state,149,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2021-10-16,2021,Uttar Pradesh,whole_state,121,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2021-10-17,2021,Uttar Pradesh,whole_state,39,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2021-10-18,2021,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2021-10-19,2021,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2021-10-20,2021,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2021-10-21,2021,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2021-10-22,2021,Uttar Pradesh,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2021-10-23,2021,Uttar Pradesh,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2021-10-24,2021,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2021-10-25,2021,Uttar Pradesh,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2021-10-26,2021,Uttar Pradesh,whole_state,41,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2021-10-27,2021,Uttar Pradesh,whole_state,58,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2021-10-28,2021,Uttar Pradesh,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2021-10-29,2021,Uttar Pradesh,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2021-10-30,2021,Uttar Pradesh,whole_state,53,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2021-10-31,2021,Uttar Pradesh,whole_state,170,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2021-11-01,2021,Uttar Pradesh,whole_state,157,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2021-11-02,2021,Uttar Pradesh,whole_state,87,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2021-11-03,2021,Uttar Pradesh,whole_state,66,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2021-11-04,2021,Uttar Pradesh,whole_state,123,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2021-11-05,2021,Uttar Pradesh,whole_state,70,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2021-11-06,2021,Uttar Pradesh,whole_state,208,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2021-11-07,2021,Uttar Pradesh,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2021-11-08,2021,Uttar Pradesh,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2021-11-09,2021,Uttar Pradesh,whole_state,51,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2021-11-10,2021,Uttar Pradesh,whole_state,77,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2021-11-11,2021,Uttar Pradesh,whole_state,151,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2021-11-12,2021,Uttar Pradesh,whole_state,120,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2021-11-13,2021,Uttar Pradesh,whole_state,95,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2021-11-14,2021,Uttar Pradesh,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2021-11-15,2021,Uttar Pradesh,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2021-11-16,2021,Uttar Pradesh,whole_state,138,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2021-11-17,2021,Uttar Pradesh,whole_state,177,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2021-11-18,2021,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2021-11-19,2021,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2021-11-20,2021,Uttar Pradesh,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2021-11-21,2021,Uttar Pradesh,whole_state,106,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2021-11-22,2021,Uttar Pradesh,whole_state,276,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2021-11-23,2021,Uttar Pradesh,whole_state,186,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2021-11-24,2021,Uttar Pradesh,whole_state,87,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2021-11-25,2021,Uttar Pradesh,whole_state,80,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2021-11-26,2021,Uttar Pradesh,whole_state,74,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2021-11-27,2021,Uttar Pradesh,whole_state,257,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2021-11-28,2021,Uttar Pradesh,whole_state,241,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2021-11-29,2021,Uttar Pradesh,whole_state,101,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2021-11-30,2021,Uttar Pradesh,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2022-09-15,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2022-09-16,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2022-09-17,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2022-09-18,2022,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2022-09-19,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2022-09-20,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2022-09-21,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2022-09-22,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2022-09-23,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2022-09-24,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2022-09-25,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2022-09-26,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2022-09-27,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2022-09-28,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2022-09-29,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2022-09-30,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2022-10-01,2022,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2022-10-02,2022,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2022-10-03,2022,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2022-10-04,2022,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2022-10-05,2022,Haryana,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2022-10-06,2022,Haryana,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2022-10-07,2022,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2022-10-08,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2022-10-09,2022,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2022-10-10,2022,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2022-10-11,2022,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2022-10-12,2022,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2022-10-13,2022,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2022-10-14,2022,Haryana,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2022-10-15,2022,Haryana,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2022-10-16,2022,Haryana,whole_state,76,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2022-10-17,2022,Haryana,whole_state,86,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2022-10-18,2022,Haryana,whole_state,134,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2022-10-19,2022,Haryana,whole_state,122,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2022-10-20,2022,Haryana,whole_state,78,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2022-10-21,2022,Haryana,whole_state,107,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2022-10-22,2022,Haryana,whole_state,122,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2022-10-23,2022,Haryana,whole_state,217,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2022-10-24,2022,Haryana,whole_state,250,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2022-10-25,2022,Haryana,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2022-10-26,2022,Haryana,whole_state,123,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2022-10-27,2022,Haryana,whole_state,83,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2022-10-28,2022,Haryana,whole_state,123,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2022-10-29,2022,Haryana,whole_state,112,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2022-10-30,2022,Haryana,whole_state,112,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2022-10-31,2022,Haryana,whole_state,70,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2022-11-01,2022,Haryana,whole_state,88,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2022-11-02,2022,Haryana,whole_state,166,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2022-11-03,2022,Haryana,whole_state,128,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2022-11-04,2022,Haryana,whole_state,63,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2022-11-05,2022,Haryana,whole_state,90,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2022-11-06,2022,Haryana,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2022-11-07,2022,Haryana,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2022-11-08,2022,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2022-11-09,2022,Haryana,whole_state,69,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2022-11-10,2022,Haryana,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2022-11-11,2022,Haryana,whole_state,152,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2022-11-12,2022,Haryana,whole_state,99,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2022-11-13,2022,Haryana,whole_state,132,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2022-11-14,2022,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2022-11-15,2022,Haryana,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2022-11-16,2022,Haryana,whole_state,84,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2022-11-17,2022,Haryana,whole_state,39,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2022-11-18,2022,Haryana,whole_state,108,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2022-11-19,2022,Haryana,whole_state,79,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2022-11-20,2022,Haryana,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2022-11-21,2022,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2022-11-22,2022,Haryana,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2022-11-23,2022,Haryana,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2022-11-24,2022,Haryana,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2022-11-25,2022,Haryana,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2022-11-26,2022,Haryana,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2022-11-27,2022,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2022-11-28,2022,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2022-11-29,2022,Haryana,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2022-11-30,2022,Haryana,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2022-09-15,2022,Punjab,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2022-09-16,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2022-09-17,2022,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2022-09-18,2022,Punjab,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2022-09-19,2022,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2022-09-20,2022,Punjab,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2022-09-21,2022,Punjab,whole_state,56,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2022-09-22,2022,Punjab,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2022-09-23,2022,Punjab,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2022-09-24,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2022-09-25,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2022-09-26,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2022-09-27,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2022-09-28,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2022-09-29,2022,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2022-09-30,2022,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2022-10-01,2022,Punjab,whole_state,45,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2022-10-02,2022,Punjab,whole_state,83,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2022-10-03,2022,Punjab,whole_state,75,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2022-10-04,2022,Punjab,whole_state,65,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2022-10-05,2022,Punjab,whole_state,130,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2022-10-06,2022,Punjab,whole_state,85,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2022-10-07,2022,Punjab,whole_state,62,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2022-10-08,2022,Punjab,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2022-10-09,2022,Punjab,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2022-10-10,2022,Punjab,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2022-10-11,2022,Punjab,whole_state,45,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2022-10-12,2022,Punjab,whole_state,104,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2022-10-13,2022,Punjab,whole_state,120,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2022-10-14,2022,Punjab,whole_state,82,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2022-10-15,2022,Punjab,whole_state,169,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2022-10-16,2022,Punjab,whole_state,206,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2022-10-17,2022,Punjab,whole_state,403,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2022-10-18,2022,Punjab,whole_state,342,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2022-10-19,2022,Punjab,whole_state,436,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2022-10-20,2022,Punjab,whole_state,96,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2022-10-21,2022,Punjab,whole_state,393,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2022-10-22,2022,Punjab,whole_state,582,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2022-10-23,2022,Punjab,whole_state,902,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2022-10-24,2022,Punjab,whole_state,1019,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2022-10-25,2022,Punjab,whole_state,181,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2022-10-26,2022,Punjab,whole_state,1238,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2022-10-27,2022,Punjab,whole_state,1111,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2022-10-28,2022,Punjab,whole_state,2067,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2022-10-29,2022,Punjab,whole_state,1898,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2022-10-30,2022,Punjab,whole_state,1761,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2022-10-31,2022,Punjab,whole_state,2131,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2022-11-01,2022,Punjab,whole_state,1842,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2022-11-02,2022,Punjab,whole_state,3634,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2022-11-03,2022,Punjab,whole_state,2666,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2022-11-04,2022,Punjab,whole_state,2437,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2022-11-05,2022,Punjab,whole_state,2817,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2022-11-06,2022,Punjab,whole_state,599,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2022-11-07,2022,Punjab,whole_state,2487,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2022-11-08,2022,Punjab,whole_state,604,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2022-11-09,2022,Punjab,whole_state,1778,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2022-11-10,2022,Punjab,whole_state,1893,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2022-11-11,2022,Punjab,whole_state,3916,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2022-11-12,2022,Punjab,whole_state,2467,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2022-11-13,2022,Punjab,whole_state,2175,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2022-11-14,2022,Punjab,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2022-11-15,2022,Punjab,whole_state,141,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2022-11-16,2022,Punjab,whole_state,1358,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2022-11-17,2022,Punjab,whole_state,966,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2022-11-18,2022,Punjab,whole_state,701,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2022-11-19,2022,Punjab,whole_state,426,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2022-11-20,2022,Punjab,whole_state,368,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2022-11-21,2022,Punjab,whole_state,243,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2022-11-22,2022,Punjab,whole_state,78,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2022-11-23,2022,Punjab,whole_state,140,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2022-11-24,2022,Punjab,whole_state,66,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2022-11-25,2022,Punjab,whole_state,44,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2022-11-26,2022,Punjab,whole_state,22,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2022-11-27,2022,Punjab,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2022-11-28,2022,Punjab,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2022-11-29,2022,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2022-11-30,2022,Punjab,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2022-09-15,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2022-09-16,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2022-09-17,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2022-09-18,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2022-09-19,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2022-09-20,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2022-09-21,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2022-09-22,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2022-09-23,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2022-09-24,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2022-09-25,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2022-09-26,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2022-09-27,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2022-09-28,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2022-09-29,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2022-09-30,2022,Uttar Pradesh,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2022-10-01,2022,Uttar Pradesh,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2022-10-02,2022,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2022-10-03,2022,Uttar Pradesh,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2022-10-04,2022,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2022-10-05,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2022-10-06,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2022-10-07,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2022-10-08,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2022-10-09,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2022-10-10,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2022-10-11,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2022-10-12,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2022-10-13,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2022-10-14,2022,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2022-10-15,2022,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2022-10-16,2022,Uttar Pradesh,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2022-10-17,2022,Uttar Pradesh,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2022-10-18,2022,Uttar Pradesh,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2022-10-19,2022,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2022-10-20,2022,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2022-10-21,2022,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2022-10-22,2022,Uttar Pradesh,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2022-10-23,2022,Uttar Pradesh,whole_state,109,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2022-10-24,2022,Uttar Pradesh,whole_state,212,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2022-10-25,2022,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2022-10-26,2022,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2022-10-27,2022,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2022-10-28,2022,Uttar Pradesh,whole_state,34,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2022-10-29,2022,Uttar Pradesh,whole_state,73,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2022-10-30,2022,Uttar Pradesh,whole_state,43,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2022-10-31,2022,Uttar Pradesh,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2022-11-01,2022,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2022-11-02,2022,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2022-11-03,2022,Uttar Pradesh,whole_state,40,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2022-11-04,2022,Uttar Pradesh,whole_state,61,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2022-11-05,2022,Uttar Pradesh,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2022-11-06,2022,Uttar Pradesh,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2022-11-07,2022,Uttar Pradesh,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2022-11-08,2022,Uttar Pradesh,whole_state,44,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2022-11-09,2022,Uttar Pradesh,whole_state,58,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2022-11-10,2022,Uttar Pradesh,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2022-11-11,2022,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2022-11-12,2022,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2022-11-13,2022,Uttar Pradesh,whole_state,102,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2022-11-14,2022,Uttar Pradesh,whole_state,101,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2022-11-15,2022,Uttar Pradesh,whole_state,84,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2022-11-16,2022,Uttar Pradesh,whole_state,48,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2022-11-17,2022,Uttar Pradesh,whole_state,50,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2022-11-18,2022,Uttar Pradesh,whole_state,66,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2022-11-19,2022,Uttar Pradesh,whole_state,116,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2022-11-20,2022,Uttar Pradesh,whole_state,168,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2022-11-21,2022,Uttar Pradesh,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2022-11-22,2022,Uttar Pradesh,whole_state,76,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2022-11-23,2022,Uttar Pradesh,whole_state,73,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2022-11-24,2022,Uttar Pradesh,whole_state,195,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2022-11-25,2022,Uttar Pradesh,whole_state,241,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2022-11-26,2022,Uttar Pradesh,whole_state,127,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2022-11-27,2022,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2022-11-28,2022,Uttar Pradesh,whole_state,59,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2022-11-29,2022,Uttar Pradesh,whole_state,101,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2022-11-30,2022,Uttar Pradesh,whole_state,180,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2023-09-15,2023,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2023-09-16,2023,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2023-09-17,2023,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2023-09-18,2023,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2023-09-19,2023,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2023-09-20,2023,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2023-09-21,2023,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2023-09-22,2023,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2023-09-23,2023,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2023-09-24,2023,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2023-09-25,2023,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2023-09-26,2023,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2023-09-27,2023,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2023-09-28,2023,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2023-09-29,2023,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2023-09-30,2023,Haryana,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2023-10-01,2023,Haryana,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2023-10-02,2023,Haryana,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2023-10-03,2023,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2023-10-04,2023,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2023-10-05,2023,Haryana,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2023-10-06,2023,Haryana,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2023-10-07,2023,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2023-10-08,2023,Haryana,whole_state,55,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2023-10-09,2023,Haryana,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2023-10-10,2023,Haryana,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2023-10-11,2023,Haryana,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2023-10-12,2023,Haryana,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2023-10-13,2023,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2023-10-14,2023,Haryana,whole_state,41,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2023-10-15,2023,Haryana,whole_state,127,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2023-10-16,2023,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2023-10-17,2023,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2023-10-18,2023,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2023-10-19,2023,Haryana,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2023-10-20,2023,Haryana,whole_state,51,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2023-10-21,2023,Haryana,whole_state,68,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2023-10-22,2023,Haryana,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2023-10-23,2023,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2023-10-24,2023,Haryana,whole_state,70,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2023-10-25,2023,Haryana,whole_state,58,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2023-10-26,2023,Haryana,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2023-10-27,2023,Haryana,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2023-10-28,2023,Haryana,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2023-10-29,2023,Haryana,whole_state,75,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2023-10-30,2023,Haryana,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2023-10-31,2023,Haryana,whole_state,51,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2023-11-01,2023,Haryana,whole_state,99,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2023-11-02,2023,Haryana,whole_state,48,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2023-11-03,2023,Haryana,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2023-11-04,2023,Haryana,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2023-11-05,2023,Haryana,whole_state,109,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2023-11-06,2023,Haryana,whole_state,65,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2023-11-07,2023,Haryana,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2023-11-08,2023,Haryana,whole_state,44,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2023-11-09,2023,Haryana,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2023-11-10,2023,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2023-11-11,2023,Haryana,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2023-11-12,2023,Haryana,whole_state,110,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2023-11-13,2023,Haryana,whole_state,44,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2023-11-14,2023,Haryana,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2023-11-15,2023,Haryana,whole_state,62,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2023-11-16,2023,Haryana,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2023-11-17,2023,Haryana,whole_state,45,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2023-11-18,2023,Haryana,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2023-11-19,2023,Haryana,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2023-11-20,2023,Haryana,whole_state,38,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2023-11-21,2023,Haryana,whole_state,54,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2023-11-22,2023,Haryana,whole_state,62,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2023-11-23,2023,Haryana,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2023-11-24,2023,Haryana,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2023-11-25,2023,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2023-11-26,2023,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2023-11-27,2023,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2023-11-28,2023,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2023-11-29,2023,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2023-11-30,2023,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2023-09-15,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2023-09-16,2023,Punjab,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2023-09-17,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2023-09-18,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2023-09-19,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2023-09-20,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2023-09-21,2023,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2023-09-22,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2023-09-23,2023,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2023-09-24,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2023-09-25,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2023-09-26,2023,Punjab,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2023-09-27,2023,Punjab,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2023-09-28,2023,Punjab,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2023-09-29,2023,Punjab,whole_state,68,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2023-09-30,2023,Punjab,whole_state,81,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2023-10-01,2023,Punjab,whole_state,123,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2023-10-02,2023,Punjab,whole_state,119,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2023-10-03,2023,Punjab,whole_state,105,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2023-10-04,2023,Punjab,whole_state,95,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2023-10-05,2023,Punjab,whole_state,98,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2023-10-06,2023,Punjab,whole_state,91,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2023-10-07,2023,Punjab,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2023-10-08,2023,Punjab,whole_state,92,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2023-10-09,2023,Punjab,whole_state,58,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2023-10-10,2023,Punjab,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2023-10-11,2023,Punjab,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2023-10-12,2023,Punjab,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2023-10-13,2023,Punjab,whole_state,154,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2023-10-14,2023,Punjab,whole_state,89,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2023-10-15,2023,Punjab,whole_state,69,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2023-10-16,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2023-10-17,2023,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2023-10-18,2023,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2023-10-19,2023,Punjab,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2023-10-20,2023,Punjab,whole_state,174,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2023-10-21,2023,Punjab,whole_state,146,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2023-10-22,2023,Punjab,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2023-10-23,2023,Punjab,whole_state,152,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2023-10-24,2023,Punjab,whole_state,360,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2023-10-25,2023,Punjab,whole_state,398,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2023-10-26,2023,Punjab,whole_state,589,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2023-10-27,2023,Punjab,whole_state,766,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2023-10-28,2023,Punjab,whole_state,127,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2023-10-29,2023,Punjab,whole_state,1068,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2023-10-30,2023,Punjab,whole_state,1030,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2023-10-31,2023,Punjab,whole_state,1389,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2023-11-01,2023,Punjab,whole_state,1921,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2023-11-02,2023,Punjab,whole_state,1668,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2023-11-03,2023,Punjab,whole_state,1551,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2023-11-04,2023,Punjab,whole_state,1360,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2023-11-05,2023,Punjab,whole_state,3230,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2023-11-06,2023,Punjab,whole_state,2060,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2023-11-07,2023,Punjab,whole_state,1515,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2023-11-08,2023,Punjab,whole_state,2003,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2023-11-09,2023,Punjab,whole_state,639,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2023-11-10,2023,Punjab,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2023-11-11,2023,Punjab,whole_state,104,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2023-11-12,2023,Punjab,whole_state,987,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2023-11-13,2023,Punjab,whole_state,1624,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2023-11-14,2023,Punjab,whole_state,1776,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2023-11-15,2023,Punjab,whole_state,2544,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2023-11-16,2023,Punjab,whole_state,1271,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2023-11-17,2023,Punjab,whole_state,1150,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2023-11-18,2023,Punjab,whole_state,637,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2023-11-19,2023,Punjab,whole_state,740,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2023-11-20,2023,Punjab,whole_state,634,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2023-11-21,2023,Punjab,whole_state,513,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2023-11-22,2023,Punjab,whole_state,512,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2023-11-23,2023,Punjab,whole_state,205,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2023-11-24,2023,Punjab,whole_state,191,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2023-11-25,2023,Punjab,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2023-11-26,2023,Punjab,whole_state,63,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2023-11-27,2023,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2023-11-28,2023,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2023-11-29,2023,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2023-11-30,2023,Punjab,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2023-09-15,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2023-09-16,2023,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2023-09-17,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2023-09-18,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2023-09-19,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2023-09-20,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2023-09-21,2023,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2023-09-22,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2023-09-23,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2023-09-24,2023,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2023-09-25,2023,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2023-09-26,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2023-09-27,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2023-09-28,2023,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2023-09-29,2023,Uttar Pradesh,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2023-09-30,2023,Uttar Pradesh,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2023-10-01,2023,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2023-10-02,2023,Uttar Pradesh,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2023-10-03,2023,Uttar Pradesh,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2023-10-04,2023,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2023-10-05,2023,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2023-10-06,2023,Uttar Pradesh,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2023-10-07,2023,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2023-10-08,2023,Uttar Pradesh,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2023-10-09,2023,Uttar Pradesh,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2023-10-10,2023,Uttar Pradesh,whole_state,34,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2023-10-11,2023,Uttar Pradesh,whole_state,50,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2023-10-12,2023,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2023-10-13,2023,Uttar Pradesh,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2023-10-14,2023,Uttar Pradesh,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2023-10-15,2023,Uttar Pradesh,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2023-10-16,2023,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2023-10-17,2023,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2023-10-18,2023,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2023-10-19,2023,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2023-10-20,2023,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2023-10-21,2023,Uttar Pradesh,whole_state,59,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2023-10-22,2023,Uttar Pradesh,whole_state,117,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2023-10-23,2023,Uttar Pradesh,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2023-10-24,2023,Uttar Pradesh,whole_state,38,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2023-10-25,2023,Uttar Pradesh,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2023-10-26,2023,Uttar Pradesh,whole_state,78,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2023-10-27,2023,Uttar Pradesh,whole_state,97,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2023-10-28,2023,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2023-10-29,2023,Uttar Pradesh,whole_state,48,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2023-10-30,2023,Uttar Pradesh,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2023-10-31,2023,Uttar Pradesh,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2023-11-01,2023,Uttar Pradesh,whole_state,95,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2023-11-02,2023,Uttar Pradesh,whole_state,37,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2023-11-03,2023,Uttar Pradesh,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2023-11-04,2023,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2023-11-05,2023,Uttar Pradesh,whole_state,64,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2023-11-06,2023,Uttar Pradesh,whole_state,87,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2023-11-07,2023,Uttar Pradesh,whole_state,169,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2023-11-08,2023,Uttar Pradesh,whole_state,47,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2023-11-09,2023,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2023-11-10,2023,Uttar Pradesh,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2023-11-11,2023,Uttar Pradesh,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2023-11-12,2023,Uttar Pradesh,whole_state,238,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2023-11-13,2023,Uttar Pradesh,whole_state,176,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2023-11-14,2023,Uttar Pradesh,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2023-11-15,2023,Uttar Pradesh,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2023-11-16,2023,Uttar Pradesh,whole_state,56,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2023-11-17,2023,Uttar Pradesh,whole_state,168,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2023-11-18,2023,Uttar Pradesh,whole_state,180,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2023-11-19,2023,Uttar Pradesh,whole_state,188,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2023-11-20,2023,Uttar Pradesh,whole_state,102,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2023-11-21,2023,Uttar Pradesh,whole_state,110,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2023-11-22,2023,Uttar Pradesh,whole_state,217,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2023-11-23,2023,Uttar Pradesh,whole_state,307,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2023-11-24,2023,Uttar Pradesh,whole_state,178,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2023-11-25,2023,Uttar Pradesh,whole_state,74,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2023-11-26,2023,Uttar Pradesh,whole_state,100,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2023-11-27,2023,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2023-11-28,2023,Uttar Pradesh,whole_state,64,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2023-11-29,2023,Uttar Pradesh,whole_state,173,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2023-11-30,2023,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2024-09-15,2024,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2024-09-16,2024,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2024-09-17,2024,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2024-09-18,2024,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2024-09-19,2024,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2024-09-20,2024,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2024-09-21,2024,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2024-09-22,2024,Haryana,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2024-09-23,2024,Haryana,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2024-09-24,2024,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2024-09-25,2024,Haryana,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2024-09-26,2024,Haryana,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2024-09-27,2024,Haryana,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2024-09-28,2024,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2024-09-29,2024,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2024-09-30,2024,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2024-10-01,2024,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2024-10-02,2024,Haryana,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2024-10-03,2024,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2024-10-04,2024,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2024-10-05,2024,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2024-10-06,2024,Haryana,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2024-10-07,2024,Haryana,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2024-10-08,2024,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2024-10-09,2024,Haryana,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2024-10-10,2024,Haryana,whole_state,38,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2024-10-11,2024,Haryana,whole_state,55,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2024-10-12,2024,Haryana,whole_state,98,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2024-10-13,2024,Haryana,whole_state,90,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2024-10-14,2024,Haryana,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2024-10-15,2024,Haryana,whole_state,42,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2024-10-16,2024,Haryana,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2024-10-17,2024,Haryana,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2024-10-18,2024,Haryana,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2024-10-19,2024,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2024-10-20,2024,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2024-10-21,2024,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2024-10-22,2024,Haryana,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2024-10-23,2024,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2024-10-24,2024,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2024-10-25,2024,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2024-10-26,2024,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2024-10-27,2024,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2024-10-28,2024,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2024-10-29,2024,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2024-10-30,2024,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2024-10-31,2024,Haryana,whole_state,42,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2024-11-01,2024,Haryana,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2024-11-02,2024,Haryana,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2024-11-03,2024,Haryana,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2024-11-04,2024,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2024-11-05,2024,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2024-11-06,2024,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2024-11-07,2024,Haryana,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2024-11-08,2024,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2024-11-09,2024,Haryana,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2024-11-10,2024,Haryana,whole_state,22,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2024-11-11,2024,Haryana,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2024-11-12,2024,Haryana,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2024-11-13,2024,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2024-11-14,2024,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2024-11-15,2024,Haryana,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2024-11-16,2024,Haryana,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2024-11-17,2024,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2024-11-18,2024,Haryana,whole_state,36,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2024-11-19,2024,Haryana,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2024-11-20,2024,Haryana,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2024-11-21,2024,Haryana,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2024-11-22,2024,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2024-11-23,2024,Haryana,whole_state,53,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2024-11-24,2024,Haryana,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2024-11-25,2024,Haryana,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2024-11-26,2024,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2024-11-27,2024,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2024-11-28,2024,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2024-11-29,2024,Haryana,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2024-11-30,2024,Haryana,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2024-09-15,2024,Punjab,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2024-09-16,2024,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2024-09-17,2024,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2024-09-18,2024,Punjab,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2024-09-19,2024,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2024-09-20,2024,Punjab,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2024-09-21,2024,Punjab,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2024-09-22,2024,Punjab,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2024-09-23,2024,Punjab,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2024-09-24,2024,Punjab,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2024-09-25,2024,Punjab,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2024-09-26,2024,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2024-09-27,2024,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2024-09-28,2024,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2024-09-29,2024,Punjab,whole_state,21,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2024-09-30,2024,Punjab,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2024-10-01,2024,Punjab,whole_state,26,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2024-10-02,2024,Punjab,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2024-10-03,2024,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2024-10-04,2024,Punjab,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2024-10-05,2024,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2024-10-06,2024,Punjab,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2024-10-07,2024,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2024-10-08,2024,Punjab,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2024-10-09,2024,Punjab,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2024-10-10,2024,Punjab,whole_state,123,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2024-10-11,2024,Punjab,whole_state,143,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2024-10-12,2024,Punjab,whole_state,177,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2024-10-13,2024,Punjab,whole_state,162,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2024-10-14,2024,Punjab,whole_state,97,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2024-10-15,2024,Punjab,whole_state,144,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2024-10-16,2024,Punjab,whole_state,99,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2024-10-17,2024,Punjab,whole_state,77,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2024-10-18,2024,Punjab,whole_state,59,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2024-10-19,2024,Punjab,whole_state,45,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2024-10-20,2024,Punjab,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2024-10-21,2024,Punjab,whole_state,65,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2024-10-22,2024,Punjab,whole_state,71,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2024-10-23,2024,Punjab,whole_state,57,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2024-10-24,2024,Punjab,whole_state,40,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2024-10-25,2024,Punjab,whole_state,71,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2024-10-26,2024,Punjab,whole_state,108,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2024-10-27,2024,Punjab,whole_state,138,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2024-10-28,2024,Punjab,whole_state,142,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2024-10-29,2024,Punjab,whole_state,219,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2024-10-30,2024,Punjab,whole_state,110,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2024-10-31,2024,Punjab,whole_state,484,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2024-11-01,2024,Punjab,whole_state,587,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2024-11-02,2024,Punjab,whole_state,379,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2024-11-03,2024,Punjab,whole_state,216,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2024-11-04,2024,Punjab,whole_state,262,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2024-11-05,2024,Punjab,whole_state,361,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2024-11-06,2024,Punjab,whole_state,286,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2024-11-07,2024,Punjab,whole_state,258,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2024-11-08,2024,Punjab,whole_state,730,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2024-11-09,2024,Punjab,whole_state,237,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2024-11-10,2024,Punjab,whole_state,345,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2024-11-11,2024,Punjab,whole_state,418,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2024-11-12,2024,Punjab,whole_state,83,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2024-11-13,2024,Punjab,whole_state,509,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2024-11-14,2024,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2024-11-15,2024,Punjab,whole_state,238,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2024-11-16,2024,Punjab,whole_state,136,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2024-11-17,2024,Punjab,whole_state,404,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2024-11-18,2024,Punjab,whole_state,1251,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2024-11-19,2024,Punjab,whole_state,270,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2024-11-20,2024,Punjab,whole_state,179,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2024-11-21,2024,Punjab,whole_state,192,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2024-11-22,2024,Punjab,whole_state,147,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2024-11-23,2024,Punjab,whole_state,162,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2024-11-24,2024,Punjab,whole_state,77,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2024-11-25,2024,Punjab,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2024-11-26,2024,Punjab,whole_state,31,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2024-11-27,2024,Punjab,whole_state,41,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2024-11-28,2024,Punjab,whole_state,34,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2024-11-29,2024,Punjab,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2024-11-30,2024,Punjab,whole_state,22,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2024-09-15,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2024-09-16,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2024-09-17,2024,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2024-09-18,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2024-09-19,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2024-09-20,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2024-09-21,2024,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2024-09-22,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2024-09-23,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2024-09-24,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2024-09-25,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2024-09-26,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2024-09-27,2024,Uttar Pradesh,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2024-09-28,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2024-09-29,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2024-09-30,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2024-10-01,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2024-10-02,2024,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2024-10-03,2024,Uttar Pradesh,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2024-10-04,2024,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2024-10-05,2024,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2024-10-06,2024,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2024-10-07,2024,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2024-10-08,2024,Uttar Pradesh,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2024-10-09,2024,Uttar Pradesh,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2024-10-10,2024,Uttar Pradesh,whole_state,56,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2024-10-11,2024,Uttar Pradesh,whole_state,87,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2024-10-12,2024,Uttar Pradesh,whole_state,102,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2024-10-13,2024,Uttar Pradesh,whole_state,76,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2024-10-14,2024,Uttar Pradesh,whole_state,52,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2024-10-15,2024,Uttar Pradesh,whole_state,78,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2024-10-16,2024,Uttar Pradesh,whole_state,59,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2024-10-17,2024,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2024-10-18,2024,Uttar Pradesh,whole_state,47,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2024-10-19,2024,Uttar Pradesh,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2024-10-20,2024,Uttar Pradesh,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2024-10-21,2024,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2024-10-22,2024,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2024-10-23,2024,Uttar Pradesh,whole_state,68,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2024-10-24,2024,Uttar Pradesh,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2024-10-25,2024,Uttar Pradesh,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2024-10-26,2024,Uttar Pradesh,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2024-10-27,2024,Uttar Pradesh,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2024-10-28,2024,Uttar Pradesh,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2024-10-29,2024,Uttar Pradesh,whole_state,72,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2024-10-30,2024,Uttar Pradesh,whole_state,47,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2024-10-31,2024,Uttar Pradesh,whole_state,79,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2024-11-01,2024,Uttar Pradesh,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2024-11-02,2024,Uttar Pradesh,whole_state,87,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2024-11-03,2024,Uttar Pradesh,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2024-11-04,2024,Uttar Pradesh,whole_state,84,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2024-11-05,2024,Uttar Pradesh,whole_state,122,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2024-11-06,2024,Uttar Pradesh,whole_state,50,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2024-11-07,2024,Uttar Pradesh,whole_state,60,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2024-11-08,2024,Uttar Pradesh,whole_state,55,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2024-11-09,2024,Uttar Pradesh,whole_state,139,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2024-11-10,2024,Uttar Pradesh,whole_state,128,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2024-11-11,2024,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2024-11-12,2024,Uttar Pradesh,whole_state,83,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2024-11-13,2024,Uttar Pradesh,whole_state,139,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2024-11-14,2024,Uttar Pradesh,whole_state,202,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2024-11-15,2024,Uttar Pradesh,whole_state,186,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2024-11-16,2024,Uttar Pradesh,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2024-11-17,2024,Uttar Pradesh,whole_state,200,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2024-11-18,2024,Uttar Pradesh,whole_state,133,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2024-11-19,2024,Uttar Pradesh,whole_state,368,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2024-11-20,2024,Uttar Pradesh,whole_state,395,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2024-11-21,2024,Uttar Pradesh,whole_state,165,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2024-11-22,2024,Uttar Pradesh,whole_state,232,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2024-11-23,2024,Uttar Pradesh,whole_state,198,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2024-11-24,2024,Uttar Pradesh,whole_state,426,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2024-11-25,2024,Uttar Pradesh,whole_state,379,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2024-11-26,2024,Uttar Pradesh,whole_state,145,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2024-11-27,2024,Uttar Pradesh,whole_state,203,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2024-11-28,2024,Uttar Pradesh,whole_state,103,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2024-11-29,2024,Uttar Pradesh,whole_state,215,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2024-11-30,2024,Uttar Pradesh,whole_state,373,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2025-09-15,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2025-09-16,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2025-09-17,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2025-09-18,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2025-09-19,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2025-09-20,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2025-09-21,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2025-09-22,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2025-09-23,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2025-09-24,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2025-09-25,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2025-09-26,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2025-09-27,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2025-09-28,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2025-09-29,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2025-09-30,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2025-10-01,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2025-10-02,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2025-10-03,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2025-10-04,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2025-10-05,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2025-10-06,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2025-10-07,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2025-10-08,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2025-10-09,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2025-10-10,2025,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2025-10-11,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2025-10-12,2025,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2025-10-13,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2025-10-14,2025,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2025-10-15,2025,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2025-10-16,2025,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2025-10-17,2025,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2025-10-18,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2025-10-19,2025,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2025-10-20,2025,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2025-10-21,2025,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2025-10-22,2025,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2025-10-23,2025,Haryana,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2025-10-24,2025,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2025-10-25,2025,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2025-10-26,2025,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2025-10-27,2025,Haryana,whole_state,7,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2025-10-28,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2025-10-29,2025,Haryana,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2025-10-30,2025,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2025-10-31,2025,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2025-11-01,2025,Haryana,whole_state,19,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2025-11-02,2025,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2025-11-03,2025,Haryana,whole_state,23,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2025-11-04,2025,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2025-11-05,2025,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2025-11-06,2025,Haryana,whole_state,35,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2025-11-07,2025,Haryana,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2025-11-08,2025,Haryana,whole_state,42,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2025-11-09,2025,Haryana,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2025-11-10,2025,Haryana,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2025-11-11,2025,Haryana,whole_state,72,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2025-11-12,2025,Haryana,whole_state,29,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2025-11-13,2025,Haryana,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2025-11-14,2025,Haryana,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2025-11-15,2025,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2025-11-16,2025,Haryana,whole_state,47,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2025-11-17,2025,Haryana,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2025-11-18,2025,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2025-11-19,2025,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2025-11-20,2025,Haryana,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2025-11-21,2025,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2025-11-22,2025,Haryana,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2025-11-23,2025,Haryana,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2025-11-24,2025,Haryana,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2025-11-25,2025,Haryana,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2025-11-26,2025,Haryana,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2025-11-27,2025,Haryana,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2025-11-28,2025,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2025-11-29,2025,Haryana,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2025-11-30,2025,Haryana,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2025-09-15,2025,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2025-09-16,2025,Punjab,whole_state,18,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2025-09-17,2025,Punjab,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2025-09-18,2025,Punjab,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2025-09-19,2025,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2025-09-20,2025,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2025-09-21,2025,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2025-09-22,2025,Punjab,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2025-09-23,2025,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2025-09-24,2025,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2025-09-25,2025,Punjab,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2025-09-26,2025,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2025-09-27,2025,Punjab,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2025-09-28,2025,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2025-09-29,2025,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2025-09-30,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2025-10-01,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2025-10-02,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2025-10-03,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2025-10-04,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2025-10-05,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2025-10-06,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2025-10-07,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2025-10-08,2025,Punjab,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2025-10-09,2025,Punjab,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2025-10-10,2025,Punjab,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2025-10-11,2025,Punjab,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2025-10-12,2025,Punjab,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2025-10-13,2025,Punjab,whole_state,8,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2025-10-14,2025,Punjab,whole_state,31,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2025-10-15,2025,Punjab,whole_state,11,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2025-10-16,2025,Punjab,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2025-10-17,2025,Punjab,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2025-10-18,2025,Punjab,whole_state,33,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2025-10-19,2025,Punjab,whole_state,67,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2025-10-20,2025,Punjab,whole_state,45,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2025-10-21,2025,Punjab,whole_state,62,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2025-10-22,2025,Punjab,whole_state,69,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2025-10-23,2025,Punjab,whole_state,28,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2025-10-24,2025,Punjab,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2025-10-25,2025,Punjab,whole_state,60,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2025-10-26,2025,Punjab,whole_state,122,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2025-10-27,2025,Punjab,whole_state,147,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2025-10-28,2025,Punjab,whole_state,43,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2025-10-29,2025,Punjab,whole_state,283,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2025-10-30,2025,Punjab,whole_state,202,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2025-10-31,2025,Punjab,whole_state,224,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2025-11-01,2025,Punjab,whole_state,442,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2025-11-02,2025,Punjab,whole_state,178,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2025-11-03,2025,Punjab,whole_state,256,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2025-11-04,2025,Punjab,whole_state,321,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2025-11-05,2025,Punjab,whole_state,94,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2025-11-06,2025,Punjab,whole_state,351,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2025-11-07,2025,Punjab,whole_state,100,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2025-11-08,2025,Punjab,whole_state,238,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2025-11-09,2025,Punjab,whole_state,440,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2025-11-10,2025,Punjab,whole_state,133,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2025-11-11,2025,Punjab,whole_state,312,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2025-11-12,2025,Punjab,whole_state,155,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2025-11-13,2025,Punjab,whole_state,72,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2025-11-14,2025,Punjab,whole_state,104,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2025-11-15,2025,Punjab,whole_state,39,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2025-11-16,2025,Punjab,whole_state,95,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2025-11-17,2025,Punjab,whole_state,31,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2025-11-18,2025,Punjab,whole_state,15,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2025-11-19,2025,Punjab,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2025-11-20,2025,Punjab,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2025-11-21,2025,Punjab,whole_state,30,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2025-11-22,2025,Punjab,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2025-11-23,2025,Punjab,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2025-11-24,2025,Punjab,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2025-11-25,2025,Punjab,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2025-11-26,2025,Punjab,whole_state,6,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2025-11-27,2025,Punjab,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2025-11-28,2025,Punjab,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2025-11-29,2025,Punjab,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2025-11-30,2025,Punjab,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
+2025-09-15,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,15-Sep
+2025-09-16,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,16-Sep
+2025-09-17,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,17-Sep
+2025-09-18,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,18-Sep
+2025-09-19,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,19-Sep
+2025-09-20,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,20-Sep
+2025-09-21,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,21-Sep
+2025-09-22,2025,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,22-Sep
+2025-09-23,2025,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,23-Sep
+2025-09-24,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,24-Sep
+2025-09-25,2025,Uttar Pradesh,whole_state,2,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,25-Sep
+2025-09-26,2025,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,26-Sep
+2025-09-27,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,27-Sep
+2025-09-28,2025,Uttar Pradesh,whole_state,10,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,28-Sep
+2025-09-29,2025,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,29-Sep
+2025-09-30,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,30-Sep
+2025-10-01,2025,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,01-Oct
+2025-10-02,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,02-Oct
+2025-10-03,2025,Uttar Pradesh,whole_state,1,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,03-Oct
+2025-10-04,2025,Uttar Pradesh,whole_state,9,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,04-Oct
+2025-10-05,2025,Uttar Pradesh,whole_state,32,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,05-Oct
+2025-10-06,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,06-Oct
+2025-10-07,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,07-Oct
+2025-10-08,2025,Uttar Pradesh,whole_state,3,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,08-Oct
+2025-10-09,2025,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,09-Oct
+2025-10-10,2025,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,10-Oct
+2025-10-11,2025,Uttar Pradesh,whole_state,42,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,11-Oct
+2025-10-12,2025,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,12-Oct
+2025-10-13,2025,Uttar Pradesh,whole_state,20,ICAR-IARI (CREAMS),iari_paddy_2025_77,25,13-Oct
+2025-10-14,2025,Uttar Pradesh,whole_state,25,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Oct
+2025-10-15,2025,Uttar Pradesh,whole_state,46,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Oct
+2025-10-16,2025,Uttar Pradesh,whole_state,132,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Oct
+2025-10-17,2025,Uttar Pradesh,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Oct
+2025-10-18,2025,Uttar Pradesh,whole_state,16,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Oct
+2025-10-19,2025,Uttar Pradesh,whole_state,12,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Oct
+2025-10-20,2025,Uttar Pradesh,whole_state,77,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Oct
+2025-10-21,2025,Uttar Pradesh,whole_state,103,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Oct
+2025-10-22,2025,Uttar Pradesh,whole_state,44,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Oct
+2025-10-23,2025,Uttar Pradesh,whole_state,13,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,23-Oct
+2025-10-24,2025,Uttar Pradesh,whole_state,17,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,24-Oct
+2025-10-25,2025,Uttar Pradesh,whole_state,49,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,25-Oct
+2025-10-26,2025,Uttar Pradesh,whole_state,186,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,26-Oct
+2025-10-27,2025,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,27-Oct
+2025-10-28,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,28-Oct
+2025-10-29,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,29-Oct
+2025-10-30,2025,Uttar Pradesh,whole_state,0,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,30-Oct
+2025-10-31,2025,Uttar Pradesh,whole_state,4,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,31-Oct
+2025-11-01,2025,Uttar Pradesh,whole_state,27,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,01-Nov
+2025-11-02,2025,Uttar Pradesh,whole_state,14,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,02-Nov
+2025-11-03,2025,Uttar Pradesh,whole_state,24,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,03-Nov
+2025-11-04,2025,Uttar Pradesh,whole_state,5,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,04-Nov
+2025-11-05,2025,Uttar Pradesh,whole_state,74,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,05-Nov
+2025-11-06,2025,Uttar Pradesh,whole_state,200,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,06-Nov
+2025-11-07,2025,Uttar Pradesh,whole_state,164,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,07-Nov
+2025-11-08,2025,Uttar Pradesh,whole_state,158,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,08-Nov
+2025-11-09,2025,Uttar Pradesh,whole_state,105,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,09-Nov
+2025-11-10,2025,Uttar Pradesh,whole_state,154,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,10-Nov
+2025-11-11,2025,Uttar Pradesh,whole_state,322,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,11-Nov
+2025-11-12,2025,Uttar Pradesh,whole_state,266,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,12-Nov
+2025-11-13,2025,Uttar Pradesh,whole_state,293,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,13-Nov
+2025-11-14,2025,Uttar Pradesh,whole_state,129,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,14-Nov
+2025-11-15,2025,Uttar Pradesh,whole_state,160,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,15-Nov
+2025-11-16,2025,Uttar Pradesh,whole_state,461,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,16-Nov
+2025-11-17,2025,Uttar Pradesh,whole_state,384,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,17-Nov
+2025-11-18,2025,Uttar Pradesh,whole_state,377,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,18-Nov
+2025-11-19,2025,Uttar Pradesh,whole_state,115,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,19-Nov
+2025-11-20,2025,Uttar Pradesh,whole_state,98,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,20-Nov
+2025-11-21,2025,Uttar Pradesh,whole_state,250,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,21-Nov
+2025-11-22,2025,Uttar Pradesh,whole_state,343,ICAR-IARI (CREAMS),iari_paddy_2025_77,26,22-Nov
+2025-11-23,2025,Uttar Pradesh,whole_state,522,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,23-Nov
+2025-11-24,2025,Uttar Pradesh,whole_state,181,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,24-Nov
+2025-11-25,2025,Uttar Pradesh,whole_state,165,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,25-Nov
+2025-11-26,2025,Uttar Pradesh,whole_state,316,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,26-Nov
+2025-11-27,2025,Uttar Pradesh,whole_state,291,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,27-Nov
+2025-11-28,2025,Uttar Pradesh,whole_state,352,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,28-Nov
+2025-11-29,2025,Uttar Pradesh,whole_state,238,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,29-Nov
+2025-11-30,2025,Uttar Pradesh,whole_state,125,ICAR-IARI (CREAMS),iari_paddy_2025_77,27,30-Nov
