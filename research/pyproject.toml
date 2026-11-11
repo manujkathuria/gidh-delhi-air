@@ -1,0 +1,26 @@
+[project]
+name = "gidh-delhi-air"
+version = "0.1.0"
+description = "Source verification and reproducible analysis for the Delhi air research series"
+readme = "README.md"
+authors = [
+    { name = "Manuj Kathuria", email = "manujkathuria@outlook.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "lxml>=6.1.3",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "pypdf>=6.0,<7",
+    "scipy>=1.13.1",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+gidh-delhi-air = "gidh_delhi_air:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

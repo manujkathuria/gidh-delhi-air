@@ -1,0 +1,21 @@
+main { max-width: 1120px; margin: auto; padding: 0 40px; }
+.site-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 30px 0; border-bottom: 1px solid #d9dfd3; font-size: 14px; }
+.wordmark { font-weight: 750; font-size: 22px; letter-spacing: -.8px; }
+.wordmark span { display: block; margin-top: 3px; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 500; }
+.intro { padding: 88px 0 65px; max-width: 780px; }
+.eyebrow { text-transform: uppercase; font-size: 11px; letter-spacing: 2px; font-weight: 650; color: #5a6e5d; }
+h1 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(46px, 6.5vw, 80px); line-height: 1.06; letter-spacing: -3px; margin: 24px 0; }
+.lede { max-width: 520px; font-size: 19px; line-height: 1.6; color: #5c685f; }
+.episode { background: #e6ecd9; padding: 36px; display: grid; grid-template-columns: 1.8fr 1fr; gap: 44px; border-top: 3px solid #52684a; }
+h2 { font-family: Georgia, serif; font-size: clamp(26px, 3vw, 36px); font-weight: 400; line-height: 1.2; margin: 18px 0; }
+.episode p, aside p { line-height: 1.65; color: #4e604e; font-size: 14px; }
+aside { border-left: 1px solid #bac9ad; padding-left: 28px; align-self: center; }
+aside strong { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; }
+.sources { padding: 65px 0 40px; }
+.source-list { margin-top: 30px; }
+.source-list a { display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 22px 0; border-top: 1px solid #d9dfd3; }
+.source-list a:hover h3 { text-decoration: underline; }
+h3 { margin: 0 0 7px; font-size: 16px; font-weight: 600; }
+.source-list p { margin: 0; color: #657065; font-size: 13px; }
+footer { border-top: 1px solid #d9dfd3; padding: 24px 0 32px; font-size: 12px; color: #657065; }
+@media (max-width: 640px) { main { padding: 0 22px; } .intro { padding-top: 55px; } h1 { letter-spacing: -2px; } .episode { grid-template-columns: 1fr; gap: 20px; padding: 24px; } aside { border-left: none; border-top: 1px solid #bac9ad; padding: 20px 0 0; } .site-header > a:last-child { font-size: 12px; } }
